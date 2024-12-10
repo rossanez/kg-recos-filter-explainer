@@ -17,7 +17,8 @@ def filterRecos(filename, catalogKG, queryStr):
     print(f'Filtering recos from {filename} ...')
 
     with open(filename, 'r') as input:
-        output = open("filtered.txt", 'w')
+        split_filename = filename.split('.')
+        output = open(f"{split_filename[0]}_filtered.txt", 'w')
         for line in input:
             contents = line.strip().split("\t")
             item = contents[0]

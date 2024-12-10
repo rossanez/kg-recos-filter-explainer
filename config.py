@@ -11,6 +11,7 @@ class Config:
     __PROMPT_SECTION_NAME = "PROMPT"
     __PROMPT_INSTRUCTIONS_KEY_NAME = "instructions"
     __PROMPT_FEWSHOTS_KEY_NAME = "fewshots"
+    __PROMPT_INPUT_PREDS_KEY_NAME = "input_predicates"
 
     __parser = None
 
@@ -29,3 +30,6 @@ class Config:
         e = self.__parser.get(self.__PROMPT_SECTION_NAME, self.__PROMPT_FEWSHOTS_KEY_NAME)
         return ast.literal_eval(e)
 
+    def getPromptInputPredicates(self):
+        e = self.__parser.get(self.__PROMPT_SECTION_NAME, self.__PROMPT_INPUT_PREDS_KEY_NAME)
+        return ast.literal_eval(e)

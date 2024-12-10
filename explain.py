@@ -48,7 +48,7 @@ def groqQuery(content):
     chat_completion = client.chat.completions.create(
             messages=[
                 {"role": "user", "content": content,
-                }], model="llama3-70b-8192",)
+                }], model="llama3-70b-8192", temperature=1)
 
     return chat_completion.choices[0].message.content
 

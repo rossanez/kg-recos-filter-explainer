@@ -35,6 +35,7 @@ def main(args):
 
     for model in models:
         for temp in temperatures:
+            print(f'\n\nProcessing {model} model, with temperature {temp} ...')
             explainFilteredRecos(filteredFileName, catalogKG, model, int(temp), cfg)
 
 if __name__ == '__main__':

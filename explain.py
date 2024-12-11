@@ -1,12 +1,10 @@
 from argparse import ArgumentParser
-from groq import Groq
 from rdflib import Graph, URIRef
 from rdflib.namespace import RDF
 from sys import argv
 
 from config import Config
-
-GROQ_TOKEN="<insert your token here>"
+from groqwrapper import GroqWrapper
 
 def loadKG(filename):
     print(f'Loading {filename} as an RDFLib graph ...')
@@ -21,11 +19,11 @@ def obtainLLMInputTriples(item, catalogKG, config):
 
     content = "Triples: "
     for pred in config.getPromptInputPredicates():
-        for o in catalogKG.objects(subject=URIRef(item), predicate=URIRef(pred)):
-            if o.startswith("http://"):
-                content += f'<{item}>\t<{pred}>\t<{o}>\t. '
+        for obj in catalogKG.objects(subject=URIRef(item), predicate=URIRef(pred)):
+            if obj.startswith("http://"):
+                content += f'<{item}>\t<{pred}>\t<{obj}>\t. '
             else:
-                content += f'<{item}>\t<{pred}>\t\"{o}\"^^xsd:string\t. '
+                content += f'<{item}>\t<{pred}>\t\"{obj}\"^^xsd:string\t. '
     return f"{content}\nDescription: "
 
 def getBasePrompt(config):
@@ -40,18 +38,6 @@ def getBasePrompt(config):
 def buildPrompt(input, config):
     return f'{getBasePrompt(config)}\n{input}'
 
-def groqQuery(content):
-    client = Groq(
-              api_key=GROQ_TOKEN,
-    )
-
-    chat_completion = client.chat.completions.create(
-            messages=[
-                {"role": "user", "content": content,
-                }], model="llama3-70b-8192", temperature=1)
-
-    return chat_completion.choices[0].message.content
-
 def explainFilteredRecos(filename, catalogKG, config):
     print(f'Explaining filtered recos from {filename} ...')
 
@@ -63,9 +49,9 @@ def explainFilteredRecos(filename, catalogKG, config):
             item = contents[0]
             if len(contents) > 2 :
                 print(f'Generating explanation for {item}')
-                llmInput = obtainLLMInputTriples(item, catalogKG, config)
-                prompt = buildPrompt(llmInput, config)
-                explanation = groqQuery(prompt)
+                prompt = buildPrompt(obtainLLMInputTriples(item, catalogKG, config), config)
+                groq = GroqWrapper()
+                explanation = groq.query(prompt)
                 output.write(f'{contents[0]}\t{contents[1]}\t*\t{explanation}\n')
             else:
                 output.write(f'{contents[0]}\t{contents[1]}\n')

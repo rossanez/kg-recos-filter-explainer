@@ -16,9 +16,11 @@ def loadKG(filename):
 def filterRecos(filename, catalogKG, queryStr):
     print(f'Filtering recos from {filename} ...')
 
+    split_filename = filename.split('.')
+    output_filename = f'{split_filename[0]}_filtered.txt'
+
     with open(filename, 'r') as input:
-        split_filename = filename.split('.')
-        output = open(f"{split_filename[0]}_filtered.txt", 'w')
+        output = open(output_filename, 'w')
         for line in input:
             contents = line.strip().split("\t")
             item = contents[0]
@@ -29,6 +31,8 @@ def filterRecos(filename, catalogKG, queryStr):
             else:
                 output.write(f'{contents[0]}\t{contents[1]}\n')
         output.close()
+
+    return output_filename
 
 def main(args):
     arg_p = ArgumentParser('python filter.py', description='Filters a list of recommendations according to a predefined SPARQL query.')

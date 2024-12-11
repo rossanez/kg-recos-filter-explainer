@@ -26,19 +26,19 @@ def getPromptTriples(item, catalogKG, config):
 
     return triples
 
-def explainFilteredRecos(filename, catalogKG, config):
+def explainFilteredRecos(filename, catalogKG, llmModel, llmTemp, config):
     print(f'Explaining filtered recos from {filename} ...')
 
     with open(filename, 'r') as input:
         split_filename = filename.split('.')
-        output = open(f"{split_filename[0]}_explained.txt", 'w')
+        output = open(f'{split_filename[0]}_explained_{llmModel}_temp{llmTemp}.txt', 'w')
         for line in input:
             contents = line.strip().split("\t")
             item = contents[0]
             if len(contents) > 2 :
                 print(f'Generating explanation for {item} ...')
                 prompt = PromptBuilder(config).build(getPromptTriples(item, catalogKG, config))
-                explanation = GroqWrapper().query(prompt)
+                explanation = GroqWrapper().query(content=prompt, model=llmModel, temp=llmTemp)
                 print(f'-- {explanation}')
                 output.write(f'{contents[0]}\t{contents[1]}\t*\t{explanation}\n')
             else:
@@ -50,6 +50,8 @@ def main(args):
     arg_p.add_argument('Catalog', metavar='catalog', type=str, default=None, help='catalog KG file (*.ttl)')
 #    arg_p.add_argument('Profile', metavar='profile', type=str, default=None, help='user-profile KG file (*.ttl)')
     arg_p.add_argument('Filtered', metavar='filtered', type=str, default=None, help='filtered recomendations file (*.txt)')
+    arg_p.add_argument('-m', '--model', type=str, default="llama3-70b-8192", help='LLM model.')
+    arg_p.add_argument('-t', '--temperature', type=int, default=1, help='LLM temperature.')
 
     args = arg_p.parse_args(args[1:])
 
@@ -68,10 +70,13 @@ def main(args):
         print('No filtered recommendations file provided.')
         exit(1)
 
+    llmModel = args.model
+    llmTemp = args.temperature
+
     catalogKG = loadKG(catalog)
 #    userProfileKG = loadKG(profile)
 
-    explainFilteredRecos(filtered, catalogKG, Config())
+    explainFilteredRecos(filtered, catalogKG, llmModel, llmTemp, Config())
 
 if __name__ == '__main__':
     exit(main(argv))

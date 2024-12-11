@@ -14,7 +14,7 @@ class PromptBuilder:
         return prompt
 
     def __genRequestWithNewTriples(self, triples):
-        content = "".join(triples)
+        content = " ".join(triples)
 
         return f'Triples: {content}\nDescription: '
 

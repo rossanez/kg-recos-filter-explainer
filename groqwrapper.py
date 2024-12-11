@@ -13,6 +13,7 @@ class GroqWrapper:
         try:
             with open(KEY_FILE, 'r') as key:
                 value = key.read()
+
         except FileNotFoundError:
             print(f'ERROR: No token for groq found! Insert yours at {KEY_FILE}')
             value = "<insert your token here>"

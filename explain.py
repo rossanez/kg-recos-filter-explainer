@@ -4,6 +4,7 @@ from rdflib.namespace import RDF
 from sys import argv
 
 from config import Config
+from promptbuilder import PromptBuilder
 from groqwrapper import GroqWrapper
 
 def loadKG(filename):
@@ -14,29 +15,16 @@ def loadKG(filename):
 
     return graph
 
-def obtainLLMInputTriples(item, catalogKG, config):
-    print(f'Obtaining input for LLM ...')
-
-    content = "Triples: "
+def getPromptTriples(item, catalogKG, config):
+    triples = []
     for pred in config.getPromptInputPredicates():
         for obj in catalogKG.objects(subject=URIRef(item), predicate=URIRef(pred)):
             if obj.startswith("http://"):
-                content += f'<{item}>\t<{pred}>\t<{obj}>\t. '
+                triples.append(f'<{item}>\t<{pred}>\t<{obj}>\t. ')
             else:
-                content += f'<{item}>\t<{pred}>\t\"{obj}\"^^xsd:string\t. '
-    return f"{content}\nDescription: "
+                triples.append(f'<{item}>\t<{pred}>\t\"{obj}\"^^xsd:string\t. ')
 
-def getBasePrompt(config):
-    print(f'Fetching base prompt ...')
-
-    fewshots = config.getPromptFewShotExamples()
-    prompt = config.getPromptInstruction()
-    for ex in fewshots:
-        prompt += f"\n{ex}\n\n\n"
-    return prompt
-
-def buildPrompt(input, config):
-    return f'{getBasePrompt(config)}\n{input}'
+    return triples
 
 def explainFilteredRecos(filename, catalogKG, config):
     print(f'Explaining filtered recos from {filename} ...')
@@ -48,10 +36,10 @@ def explainFilteredRecos(filename, catalogKG, config):
             contents = line.strip().split("\t")
             item = contents[0]
             if len(contents) > 2 :
-                print(f'Generating explanation for {item}')
-                prompt = buildPrompt(obtainLLMInputTriples(item, catalogKG, config), config)
-                groq = GroqWrapper()
-                explanation = groq.query(prompt)
+                print(f'Generating explanation for {item} ...')
+                prompt = PromptBuilder(config).build(getPromptTriples(item, catalogKG, config))
+                explanation = GroqWrapper().query(prompt)
+                print(f'-- {explanation}')
                 output.write(f'{contents[0]}\t{contents[1]}\t*\t{explanation}\n')
             else:
                 output.write(f'{contents[0]}\t{contents[1]}\n')

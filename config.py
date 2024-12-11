@@ -23,7 +23,7 @@ class Config:
     def getFilterQuery(self):
         return self.__parser.get(self.__FILTER_SECTION_NAME, self.__FILTER_SPARQL_KEY_NAME)
 
-    def getPromptInstruction(self):
+    def getPromptInstructions(self):
         return self.__parser.get(self.__PROMPT_SECTION_NAME, self.__PROMPT_INSTRUCTIONS_KEY_NAME)
 
     def getPromptFewShotExamples(self):

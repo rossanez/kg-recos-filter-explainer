@@ -51,7 +51,7 @@ def main(args):
 #    arg_p.add_argument('Profile', metavar='profile', type=str, default=None, help='user-profile KG file (*.ttl)')
     arg_p.add_argument('Filtered', metavar='filtered', type=str, default=None, help='filtered recomendations file (*.txt)')
     arg_p.add_argument('-m', '--model', type=str, default="llama3-70b-8192", help='LLM model.')
-    arg_p.add_argument('-t', '--temperature', type=int, default=1, help='LLM temperature.')
+    arg_p.add_argument('-t', '--temperature', type=int, default=0, help='LLM temperature.')
 
     args = arg_p.parse_args(args[1:])
 

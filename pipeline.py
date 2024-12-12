@@ -11,7 +11,7 @@ def main(args):
 #    arg_p.add_argument('Profile', metavar='profile', type=str, default=None, help='user-profile KG file (*.ttl)')
     arg_p.add_argument('Recos', metavar='recos', type=str, default=None, help='recomendations file (*.txt)')
     arg_p.add_argument('-m', '--models', type=str, default="llama3-70b-8192", help='Comma-separated list of LLM models (e.g. \'llama3-70b-8192,mixtral-8x7b-32768,gemma2-9b-it\').')
-    arg_p.add_argument('-t', '--temperatures', type=str, default="1", help='Comma-separated list of LLM temperatures (e.g. \'0,1,2\').')
+    arg_p.add_argument('-t', '--temperatures', type=str, default="0", help='Comma-separated list of LLM temperatures (e.g. \'0,1,2\').')
 
     args = arg_p.parse_args(args[1:])
 

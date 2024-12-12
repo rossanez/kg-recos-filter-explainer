@@ -1,0 +1,10 @@
+http://www.netflix.com/nf-schema#s5512	0.014867130216014253	"Rodney King"	*	The documentary "Rodney King" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s4097	0.01486347590179574	"Studio 54"	*	The movie "Studio 54" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s2609	0.014862947467842051	"Murder to Mercy: The Cyntoia Brown Story"	*	The documentary "Murder to Mercy: The Cyntoia Brown Story" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s4912	0.014862318591552995	"The Rachel Divide"	*	The documentary "The Rachel Divide" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s5814	0.014862053181453562	"Louis C.K.: Live at the Comedy Store"
+http://www.netflix.com/nf-schema#s2754	0.014862038620149575	"Dave Chappelle: The Kennedy Center Mark Twain Prize for American Humor"	*	The comedy special "Dave Chappelle: The Kennedy Center Mark Twain Prize for American Humor" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s3829	0.014861823429662448	"Weed the People"	*	The documentary "Weed the People" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s4654	0.014861823429662444	"City of Joy"	*	The movie "City of Joy" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s6044	0.014861823429662444	"A Leaf of Faith"	*	The movie "A Leaf of Faith" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s6097	0.014861823429662444	"After Porn Ends 3"	*	The "After Porn Ends 3" is not suitable because it is rated TV-MA.

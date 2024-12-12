@@ -1,0 +1,10 @@
+http://www.netflix.com/nf-schema#s7664	0.014032900304664284	"One Last Thing"	*	The movie "One Last Thing" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s269	0.014032120257696616	"Unroyal"	*	The movie "Unroyal" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s502	0.014032054018721598	"Mama Drama"	*	The title "Mama Drama" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s499	0.01403152878570399	"Clash"	*	The movie "Clash" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s5512	0.014029594669139694	"Rodney King"	*	The documentary "Rodney King" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s4821	0.014027799534262192	"Derren Brown: Miracle"	*	The show "Derren Brown: Miracle" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s857	0.014026945345367504	"Strain"	*	The movie "Strain" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s1160	0.01402442694526796	"Black Is Beltza"	*	The movie "Black Is Beltza" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s2609	0.014023749076223124	"Murder to Mercy: The Cyntoia Brown Story"	*	The documentary "Murder to Mercy: The Cyntoia Brown Story" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s2754	0.014023740699238429	"Dave Chappelle: The Kennedy Center Mark Twain Prize for American Humor"	*	The special "Dave Chappelle: The Kennedy Center Mark Twain Prize for American Humor" is not suitable because it is rated TV-MA.

@@ -1,0 +1,10 @@
+http://www.netflix.com/nf-schema#s7516	0.014919730935916854	"Movie 43"
+http://www.netflix.com/nf-schema#s3828	0.014615668356679856	"Still LAUGH-IN: The Stars Celebrate"	*	The movie "Still LAUGH-IN: The Stars Celebrate" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s8342	0.014559397393502658	"The Help"
+http://www.netflix.com/nf-schema#s5756	0.014543866575911571	"Mascots"	*	The movie "Mascots" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s792	0.014528736442551518	"Felon"
+http://www.netflix.com/nf-schema#s8467	0.014517644517533982	"The Princess and the Frog"
+http://www.netflix.com/nf-schema#s5664	0.014500432963621173	"Sister Cities"	*	The movie "Sister Cities" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s1794	0.01449854875569486	"Sarah Cooper: Everything's Fine"	*	The special "Sarah Cooper: Everything's Fine" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s5662	0.01449034822171128	"Barry"	*	The show "Barry" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s7193	0.014481213219904423	"Kickboxer: Vengeance"	*	The movie "Kickboxer: Vengeance" is not suitable because it is rated TV-MA.

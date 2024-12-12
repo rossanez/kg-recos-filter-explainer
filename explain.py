@@ -26,6 +26,11 @@ def getPromptTriples(item, catalogKG, config):
 
     return triples
 
+def getItemName(item, catalogKG, config):
+    preds = config.getPromptInputPredicates()
+    objs = [o for o in catalogKG.objects(subject=URIRef(item), predicate=URIRef(preds[1]))]
+    return objs[0]
+
 def explainFilteredRecos(filename, catalogKG, llmModel, llmTemp, config):
     print(f'Explaining filtered recos from {filename} ...')
 
@@ -35,14 +40,15 @@ def explainFilteredRecos(filename, catalogKG, llmModel, llmTemp, config):
         for line in input:
             contents = line.strip().split("\t")
             item = contents[0]
+            itemName = getItemName(item, catalogKG, config)
             if len(contents) > 2 :
                 print(f'Generating explanation for {item} ...')
                 prompt = PromptBuilder(config).build(getPromptTriples(item, catalogKG, config))
                 explanation = GroqWrapper().query(content=prompt, model=llmModel, temp=llmTemp)
                 print(f'-- {explanation}')
-                output.write(f'{contents[0]}\t{contents[1]}\t*\t{explanation}\n')
+                output.write(f'{contents[0]}\t{contents[1]}\t\"{itemName}\"\t*\t{explanation}\n')
             else:
-                output.write(f'{contents[0]}\t{contents[1]}\n')
+                output.write(f'{contents[0]}\t{contents[1]}\t\"{itemName}\"\n')
         output.close()
 
 def main(args):

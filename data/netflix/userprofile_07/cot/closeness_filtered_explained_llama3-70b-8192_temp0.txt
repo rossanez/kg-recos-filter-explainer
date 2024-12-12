@@ -1,0 +1,61 @@
+http://www.netflix.com/nf-schema#s7516	0.017767613653183006	"Movie 43"
+http://www.netflix.com/nf-schema#s1855	0.0173279845483388	"Social Distance"	*	Here is the reasoning and description:
+
+Reasoning:
+
+1. The title is "Social Distance".
+2. Checking how "Social Distance" is rated: the rating is "TV-MA".
+3. "Social Distance" is not suitable because it is rated "TV-MA".
+4. Description: The show "Social Distance" is not suitable because it is rated TV-MA.
+
+Let me know if this is correct!
+http://www.netflix.com/nf-schema#s4221	0.016496126413457456	"COMEDIANS of the world"	*	Here is the reasoning process and the generated textual description:
+
+1. The title is "COMEDIANS of the world" and no specific type is mentioned.
+2. Checking how it is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The show "COMEDIANS of the world" is not suitable because it is rated TV-MA.
+
+Note: Since there is no specific type mentioned (e.g., Movie, TV Show), I used the more general term "show" to describe the entity.
+http://www.netflix.com/nf-schema#s3239	0.016491854378259806	"Dolly Parton's Heartstrings"
+http://www.netflix.com/nf-schema#s8467	0.016423386923125255	"The Princess and the Frog"
+http://www.netflix.com/nf-schema#s8342	0.01639041906152172	"The Help"
+http://www.netflix.com/nf-schema#s1472	0.016260023939849298	"Best of Stand-Up 2020"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Best of Stand-Up 2020".
+2. Checking how the title is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The show "Best of Stand-Up 2020" is not suitable because it is rated TV-MA.
+
+Note: Since there is no explicit type information (e.g., Movie, TV_Show) in the provided triples, I assumed it's a show based on the title and context. If more information is available, the description can be refined accordingly.
+http://www.netflix.com/nf-schema#s3775	0.016187255364994192	"Black Mirror"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Black Mirror".
+2. Checking how "Black Mirror" is rated: the rating is "TV-MA".
+3. "Black Mirror" is not suitable because it is rated "TV-MA".
+4. Description: The show "Black Mirror" is not suitable because it is rated TV-MA.
+
+Note: Since there is no explicit type information (e.g., Movie, TV Show) in the provided triples, I assumed it's a show based on the context. If more information is available, the description can be refined accordingly.
+http://www.netflix.com/nf-schema#s3828	0.01617629535116453	"Still LAUGH-IN: The Stars Celebrate"	*	Here is the textual description based on the triples:
+
+Reasoning:
+1. The title is "Still LAUGH-IN: The Stars Celebrate".
+2. Checking how it is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The show "Still LAUGH-IN: The Stars Celebrate" is not suitable because it is rated TV-MA.
+
+Let me know if you need any changes!
+http://www.netflix.com/nf-schema#s5614	0.01610268226412772	"Michael Bolton's Big, Sexy Valentine's Day Special"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Michael Bolton's Big, Sexy Valentine's Day Special".
+2. Checking how the title is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The special "Michael Bolton's Big, Sexy Valentine's Day Special" is not suitable because it is rated TV-MA.
+
+Note: I assumed the type of the title is a "special" since it's not explicitly mentioned in the triples, but it can be inferred from the title itself.

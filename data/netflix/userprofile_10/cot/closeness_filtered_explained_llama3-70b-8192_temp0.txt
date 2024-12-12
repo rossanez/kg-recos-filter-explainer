@@ -1,0 +1,90 @@
+http://www.netflix.com/nf-schema#s1787	0.014857366273618444	"La Gran Ilusión"
+http://www.netflix.com/nf-schema#s4821	0.01485608103348481	"Derren Brown: Miracle"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Derren Brown: Miracle" (no type information is provided, but it's not necessary for this description).
+2. Checking how "Derren Brown: Miracle" is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The show "Derren Brown: Miracle" is not suitable because it is rated TV-MA.
+
+Let me know if this is correct!
+http://www.netflix.com/nf-schema#s6109	0.014855435936466536	"Alarmoty in the Land of Fire"	*	Here is the reasoning process and the generated textual description:
+
+Reasoning:
+
+1. The title is "Alarmoty in the Land of Fire".
+2. Checking how the title is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The title "Alarmoty in the Land of Fire" is not suitable because it is rated TV-MA.
+
+Note: Since there is no information about the type of the title (e.g., movie, TV show), I didn't include it in the description. If more information is provided, the description can be enriched accordingly.
+http://www.netflix.com/nf-schema#s5292	0.014853335490366725	"Alias JJ, la celebridad del mal"	*	Here is the reasoning process and the generated textual description:
+
+Reasoning:
+
+1. The title is "Alias JJ, la celebridad del mal" and we don't have explicit information about its type.
+2. Checking how the title is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The title "Alias JJ, la celebridad del mal" is not suitable because it is rated TV-MA.
+
+Description: The title "Alias JJ, la celebridad del mal" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s5512	0.014853075542228963	"Rodney King"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Rodney King" and we don't know its type yet.
+2. Checking how "Rodney King" is "rated": the rating is "TV-MA".
+3. "Rodney King" is not suitable because it is rated "TV-MA".
+4. Description: The title "Rodney King" is not suitable because it is rated TV-MA.
+
+Note: Since there is no information about the type of "Rodney King" (e.g., movie, TV show, etc.), the description is more general, simply stating that the title is not suitable due to its rating.
+http://www.netflix.com/nf-schema#s405	0.014852339463929007	"9to5: The Story of a Movement"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "9to5: The Story of a Movement".
+2. Checking how the title is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The documentary "9to5: The Story of a Movement" is not suitable because it is rated TV-MA.
+
+Note: I assumed the type of the title is a documentary, as it is not explicitly mentioned in the triples. If more information is provided, the description can be more accurate.
+http://www.netflix.com/nf-schema#s4607	0.014851702723082876	"The Birth Reborn"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "The Birth Reborn".
+2. Checking how "The Birth Reborn" is rated: the rating is "TV-MA".
+3. "The Birth Reborn" is not suitable because it is rated "TV-MA".
+4. Description: The movie "The Birth Reborn" is not suitable because it is rated TV-MA.
+
+Note: I assumed the type of "The Birth Reborn" is a movie, but it's not explicitly mentioned in the triples. If more information is provided, the description can be more specific.
+http://www.netflix.com/nf-schema#s1618	0.014851607747029157	"Natalie Palamides: Nate - A One Man Show"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Natalie Palamides: Nate - A One Man Show".
+2. Checking how the show is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The show "Natalie Palamides: Nate - A One Man Show" is not suitable because it is rated TV-MA.
+
+Note: Since there is no explicit type information (e.g., Movie, TV Show) in the provided triples, I assumed it's a show based on the context. If more information is available, the description can be adjusted accordingly.
+http://www.netflix.com/nf-schema#s4982	0.014851510126620102	"Yoo Byung Jae: Too Much Information"	*	Here is the reasoning process and the generated textual description:
+
+Reasoning:
+1. The title is "Yoo Byung Jae: Too Much Information".
+2. Checking how the title is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The show "Yoo Byung Jae: Too Much Information" is not suitable because it is rated TV-MA.
+
+Note: Since there is no triple specifying the type of the show, I assumed it's a show based on the context. If more information is needed, please provide it.
+http://www.netflix.com/nf-schema#s2754	0.014851459702787388	"Dave Chappelle: The Kennedy Center Mark Twain Prize for American Humor"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Dave Chappelle: The Kennedy Center Mark Twain Prize for American Humor".
+2. Checking how the title is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: 
+
+Description: The show "Dave Chappelle: The Kennedy Center Mark Twain Prize for American Humor" is not suitable because it is rated TV-MA.

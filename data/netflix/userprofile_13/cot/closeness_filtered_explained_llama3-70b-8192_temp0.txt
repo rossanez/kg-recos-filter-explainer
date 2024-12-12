@@ -1,0 +1,55 @@
+http://www.netflix.com/nf-schema#s5512	0.01447765543246721	"Rodney King"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Rodney King" and we don't know its type yet.
+2. Checking how "Rodney King" is "rated": the rating is "TV-MA".
+3. "Rodney King" is not suitable because it is rated "TV-MA".
+4. Description: The title "Rodney King" is not suitable because it is rated TV-MA.
+
+Note: Since there is no information about the type of "Rodney King" (e.g., movie, TV show, etc.), the description is more general, simply stating that the title is not suitable due to its rating.
+http://www.netflix.com/nf-schema#s4819	0.014475532823487566	"Life Sentence"
+http://www.netflix.com/nf-schema#s4409	0.014474892126608746	"Westside"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Westside" and we don't know its type yet.
+2. Checking how "Westside" is "rated": the rating is "TV-MA".
+3. "Westside" is not suitable because it is rated "TV-MA".
+4. Description: The show "Westside" is not suitable because it is rated TV-MA.
+
+Note: I assumed "Westside" is a show, but since the type is not specified, I didn't include it in the description. If more information is provided, the description can be enriched further.
+http://www.netflix.com/nf-schema#s1787	0.014474870241328389	"La Gran Ilusión"
+http://www.netflix.com/nf-schema#s5169	0.014474651083289514	"Shot in the Dark"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Shot in the Dark".
+2. Checking how "Shot in the Dark" is rated: the rating is "TV-MA".
+3. "Shot in the Dark" is not suitable because it is rated "TV-MA".
+4. Description: The show "Shot in the Dark" is not suitable because it is rated TV-MA.
+
+Note: Since there is no explicit type information (e.g., Movie, TV Show) in the provided triples, I assumed it's a show based on the context. If more information is available, the description can be adjusted accordingly.
+http://www.netflix.com/nf-schema#s1467	0.014474315423712155	"The Minimalists: Less Is Now"
+http://www.netflix.com/nf-schema#s1426	0.014474104484184616	"Creating The Queen's Gambit"
+http://www.netflix.com/nf-schema#s7405	0.014473928736753544	"Marching Orders"
+http://www.netflix.com/nf-schema#s1749	0.0144739016978745	"60 Days In"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "60 Days In".
+2. Checking how the title is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The show "60 Days In" is not suitable because it is rated TV-MA.
+
+Note: Since there is no explicit type information (e.g., Movie, TV_Show) in the provided triples, I assumed it's a show based on the context. If more information is available, the description can be refined accordingly.
+http://www.netflix.com/nf-schema#s621	0.014473901697874499	"Droppin' Cash: Los Angeles"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Droppin' Cash: Los Angeles".
+2. Checking how the title is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The show "Droppin' Cash: Los Angeles" is not suitable because it is rated TV-MA.
+
+Note: Since there is no explicit type information (e.g., Movie, TV Show) in the provided triples, I assumed it's a show based on the context. If more information is available, the description can be refined accordingly.

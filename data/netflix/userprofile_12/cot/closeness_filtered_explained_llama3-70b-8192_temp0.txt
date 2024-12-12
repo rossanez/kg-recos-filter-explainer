@@ -1,0 +1,37 @@
+http://www.netflix.com/nf-schema#s7516	0.01612202492922071	"Movie 43"
+http://www.netflix.com/nf-schema#s8467	0.01550254424141999	"The Princess and the Frog"
+http://www.netflix.com/nf-schema#s8342	0.015455037630371279	"The Help"
+http://www.netflix.com/nf-schema#s7137	0.015248037846840886	"John Carter"
+http://www.netflix.com/nf-schema#s7817	0.015178352074708957	"Race to Witch Mountain"
+http://www.netflix.com/nf-schema#s1855	0.015153963566995225	"Social Distance"	*	Here is the reasoning and description:
+
+Reasoning:
+
+1. The title is "Social Distance".
+2. Checking how "Social Distance" is rated: the rating is "TV-MA".
+3. "Social Distance" is not suitable because it is rated "TV-MA".
+4. Description: The show "Social Distance" is not suitable because it is rated TV-MA.
+
+Let me know if this is correct!
+http://www.netflix.com/nf-schema#s3828	0.015149746010998324	"Still LAUGH-IN: The Stars Celebrate"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Still LAUGH-IN: The Stars Celebrate".
+2. Checking how this title is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The show "Still LAUGH-IN: The Stars Celebrate" is not suitable because it is rated TV-MA.
+
+Note: I assumed the type of the title is a show, as it was not explicitly mentioned in the triples. If more information is provided, the description can be enriched further.
+http://www.netflix.com/nf-schema#s6187	0.015125437088070645	"Arthur Christmas"
+http://www.netflix.com/nf-schema#s5614	0.014912969038106091	"Michael Bolton's Big, Sexy Valentine's Day Special"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Michael Bolton's Big, Sexy Valentine's Day Special".
+2. Checking how the title is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The special "Michael Bolton's Big, Sexy Valentine's Day Special" is not suitable because it is rated TV-MA.
+
+Note: I assumed the type of the title is a "special" since it's not explicitly mentioned in the triples, but it can be inferred from the title itself.
+http://www.netflix.com/nf-schema#s171	0.01487784240353668	"Rhyme & Reason"

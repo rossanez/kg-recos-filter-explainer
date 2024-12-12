@@ -1,0 +1,64 @@
+http://www.netflix.com/nf-schema#s7516	0.014919730935916854	"Movie 43"
+http://www.netflix.com/nf-schema#s3828	0.014615668356679856	"Still LAUGH-IN: The Stars Celebrate"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Still LAUGH-IN: The Stars Celebrate".
+2. Checking how this title is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The show "Still LAUGH-IN: The Stars Celebrate" is not suitable because it is rated TV-MA.
+
+Note: I assumed the type of the title is a show, as it was not explicitly mentioned in the triples. If more information is provided, the description can be enriched further.
+http://www.netflix.com/nf-schema#s8342	0.014559397393502658	"The Help"
+http://www.netflix.com/nf-schema#s5756	0.014543866575911571	"Mascots"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Mascots" and we don't know its type yet.
+2. Checking how "Mascots" is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The movie/show "Mascots" is not suitable because it is rated TV-MA.
+
+Note: Since there is no type information provided, I couldn't determine if it's a movie or a TV show, so I used "movie/show" in the description. If more information is provided, the description can be more specific.
+http://www.netflix.com/nf-schema#s792	0.014528736442551518	"Felon"
+http://www.netflix.com/nf-schema#s8467	0.014517644517533982	"The Princess and the Frog"
+http://www.netflix.com/nf-schema#s5664	0.014500432963621173	"Sister Cities"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Sister Cities".
+2. Checking how "Sister Cities" is rated: the rating is "TV-MA".
+3. "Sister Cities" is not suitable because it is rated "TV-MA".
+4. Description: The movie "Sister Cities" is not suitable because it is rated TV-MA.
+
+Note: I assumed the type of "Sister Cities" is a movie, although it's not explicitly stated in the triples. If more information is provided, the description can be adjusted accordingly.
+http://www.netflix.com/nf-schema#s1794	0.01449854875569486	"Sarah Cooper: Everything's Fine"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Sarah Cooper: Everything's Fine".
+2. Checking how the title is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The show "Sarah Cooper: Everything's Fine" is not suitable because it is rated TV-MA.
+
+Note: I assumed the type of the title is a show, as it was not explicitly mentioned in the triples. If more information is provided, the description can be more specific.
+http://www.netflix.com/nf-schema#s5662	0.01449034822171128	"Barry"	*	Here is the reasoning process and the generated textual description:
+
+Reasoning:
+
+1. The title is "Barry" and we don't know its type yet.
+2. Checking how "Barry" is "rated": the rating is "TV-MA".
+3. "Barry" is not suitable because it is rated "TV-MA".
+4. Description: The show "Barry" is not suitable because it is rated TV-MA.
+
+Note: Since there is no information about the type of "Barry" (e.g., movie, TV show), I used the more general term "show" in the description.
+http://www.netflix.com/nf-schema#s7193	0.014481213219904423	"Kickboxer: Vengeance"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Kickboxer: Vengeance".
+2. Checking how the title is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The movie "Kickboxer: Vengeance" is not suitable because it is rated TV-MA.
+
+Note: I assumed the type of the title is a movie, although it's not explicitly mentioned in the triples. If more information is provided, the description can be more accurate.

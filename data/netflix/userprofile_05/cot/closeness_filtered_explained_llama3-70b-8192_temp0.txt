@@ -1,0 +1,91 @@
+http://www.netflix.com/nf-schema#s3828	0.01465741158182601	"Still LAUGH-IN: The Stars Celebrate"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Still LAUGH-IN: The Stars Celebrate".
+2. Checking how this title is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The show "Still LAUGH-IN: The Stars Celebrate" is not suitable because it is rated TV-MA.
+
+Note: I assumed the type of the title is a show, as it was not explicitly mentioned in the triples. If more information is provided, the description can be enriched further.
+http://www.netflix.com/nf-schema#s7516	0.014640782985671851	"Movie 43"
+http://www.netflix.com/nf-schema#s5512	0.014636465589246922	"Rodney King"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Rodney King" and we don't know its type yet.
+2. Checking how "Rodney King" is "rated": the rating is "TV-MA".
+3. "Rodney King" is not suitable because it is rated "TV-MA".
+4. Description: The title "Rodney King" is not suitable because it is rated TV-MA.
+
+Note: Since there is no information about the type of "Rodney King" (e.g., movie, TV show, etc.), the description is more general, simply stating that the title is not suitable due to its rating.
+http://www.netflix.com/nf-schema#s3330	0.014633260565100097	"American Son"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "American Son".
+2. Checking how "American Son" is rated: the rating is "TV-MA".
+3. "American Son" is not suitable because it is rated "TV-MA".
+4. Description: The show "American Son" is not suitable because it is rated TV-MA.
+
+Note: Since there is no explicit type information (e.g., Movie, TV Show) in the provided triples, I assumed it's a show. If more information is available, the description can be adjusted accordingly.
+http://www.netflix.com/nf-schema#s6868	0.014631552802566119	"Goldie"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Goldie" and we don't know its type yet.
+2. Checking how "Goldie" is "rated": the rating is "TV-MA".
+3. "Goldie" is not suitable because it is rated "TV-MA".
+4. Description: The title "Goldie" is not suitable because it is rated TV-MA.
+
+Note: Since there is no information about the type of "Goldie" (e.g., movie, TV show, etc.), the description is more general, simply stating that the title "Goldie" is not suitable due to its TV-MA rating.
+http://www.netflix.com/nf-schema#s6149	0.01463105385097056	"American Warfighter"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "American Warfighter".
+2. Checking how "American Warfighter" is "rated": the rating is "TV-MA".
+3. "American Warfighter" is not suitable because it is rated "TV-MA".
+4. Description: The movie "American Warfighter" is not suitable because it is rated TV-MA.
+
+Note: I assumed the type is "Movie" since it's not explicitly mentioned in the triples, but based on the context and the rating, it's likely a movie. If more information is provided, the description can be adjusted accordingly.
+http://www.netflix.com/nf-schema#s3418	0.014630976576949844	"Ghosts of Sugar Land"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Ghosts of Sugar Land".
+2. Checking how the title is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The title "Ghosts of Sugar Land" is not suitable because it is rated TV-MA.
+
+Note: Since there is no information about the type of the title (e.g., movie, TV show), I didn't include it in the description. If more information is provided, the description can be enriched accordingly.
+http://www.netflix.com/nf-schema#s4177	0.014630976576949844	"FYRE: The Greatest Party That Never Happened"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "FYRE: The Greatest Party That Never Happened".
+2. Checking how the title is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The documentary "FYRE: The Greatest Party That Never Happened" is not suitable because it is rated TV-MA.
+
+Note: I assumed the type of the title is a documentary, as it's a well-known documentary film. If the type is not specified, the description would be: The title "FYRE: The Greatest Party That Never Happened" is not suitable because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s3968	0.01463097657694984	"The Legend of Cocaine Island"	*	Here is the reasoning process and the generated textual description:
+
+Reasoning:
+
+1. The title is "The Legend of Cocaine Island".
+2. Checking how the title is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The movie "The Legend of Cocaine Island" is not suitable because it is rated TV-MA.
+
+Note: I assumed the type of the title is a movie, as it was not explicitly mentioned in the triples. If more information is provided, the description can be more accurate.
+http://www.netflix.com/nf-schema#s3419	0.014630976576949836	"League of Legends Origins"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "League of Legends Origins".
+2. Checking how it is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The title "League of Legends Origins" is not suitable because it is rated TV-MA.
+
+Note: Since there is no information about the type of the title (e.g., movie, TV show, etc.), I didn't include that in the description. If more information is provided, the description can be enriched accordingly.

@@ -1,0 +1,88 @@
+http://www.netflix.com/nf-schema#s7664	0.014534410957540725	"One Last Thing"	*	Here is the answer:
+
+Reasoning: 
+1. The title is "One Last Thing". 
+2. Checking how it is "rated": the rating is "TV-MA". 
+3. The title is not suitable because it is rated "TV-MA". 
+4. Description: The show "One Last Thing" is not suitable because it is rated TV-MA.
+
+Note: I assumed the type of "One Last Thing" is a show, but it's not explicitly stated in the triples. If more triples are provided to specify the type, I can revise the description accordingly.
+http://www.netflix.com/nf-schema#s5512	0.014532816959294181	"Rodney King"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Rodney King" and we don't know its type yet.
+2. Checking how "Rodney King" is "rated": the rating is "TV-MA".
+3. "Rodney King" is not suitable because it is rated "TV-MA".
+4. Description: The title "Rodney King" is not suitable because it is rated TV-MA.
+
+Note: Since there is no information about the type of "Rodney King" (e.g., movie, TV show, etc.), the description is more general, simply stating that the title is not suitable due to its rating.
+http://www.netflix.com/nf-schema#s1030	0.014531624993984044	"Doctor Bello"	*	Here is the generated textual description:
+
+Reasoning:
+
+1. The title is "Doctor Bello".
+2. Checking how "Doctor Bello" is rated: the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The movie "Doctor Bello" is not suitable because it is rated TV-MA.
+
+Let me know if this is correct!
+http://www.netflix.com/nf-schema#s5330	0.014531133056028484	"Chocolate City: Vegas Strip"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Chocolate City: Vegas Strip".
+2. Checking how the title is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The movie "Chocolate City: Vegas Strip" is not suitable because it is rated TV-MA.
+
+Note: I assumed the type of the title is a movie, as it was not explicitly mentioned in the triples. If more information is provided, the description can be more specific.
+http://www.netflix.com/nf-schema#s8506	0.014530994323771428	"The Show"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "The Show".
+2. Checking how "The Show" is rated: the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The show "The Show" is not suitable because it is rated TV-MA.
+
+Note: Since there is no information about the type of "The Show" (e.g., movie, TV show, etc.), I didn't include that in the description. If more information is provided, the description can be enriched accordingly.
+http://www.netflix.com/nf-schema#s5562	0.014529915862199346	"The Most Hated Woman in America"	*	Here is the generated textual description based on the triples:
+
+Reasoning:
+1. The title is "The Most Hated Woman in America".
+2. Checking how it is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The movie "The Most Hated Woman in America" is not suitable because it is rated TV-MA.
+
+Note: I assumed the type of the title is "Movie" based on the context, but it's not explicitly mentioned in the provided triples. If more triples are provided to clarify the type, the description can be adjusted accordingly.
+http://www.netflix.com/nf-schema#s6149	0.014529701324175838	"American Warfighter"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "American Warfighter".
+2. Checking how "American Warfighter" is "rated": the rating is "TV-MA".
+3. "American Warfighter" is not suitable because it is rated "TV-MA".
+4. Description: The movie "American Warfighter" is not suitable because it is rated TV-MA.
+
+Note: I assumed the type is "Movie" since it's not explicitly mentioned in the triples, but based on the context and the rating, it's likely a movie. If more information is provided, the description can be adjusted accordingly.
+http://www.netflix.com/nf-schema#s1787	0.014528523786139	"La Gran Ilusión"
+http://www.netflix.com/nf-schema#s3330	0.014527674737452772	"American Son"	*	Here is the reasoning process and the textual description:
+
+Reasoning:
+1. The title is "American Son".
+2. Checking how "American Son" is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The movie/program "American Son" is not suitable because it is rated TV-MA.
+
+Note: Since there is no explicit type information (e.g., Movie, TV Show) in the provided triples, I left the description more general as "movie/program". If more information is needed, please provide additional triples or clarify the type of "American Son".
+http://www.netflix.com/nf-schema#s4821	0.014527560792621156	"Derren Brown: Miracle"	*	Here is the reasoning and description for the third example:
+
+Reasoning:
+
+1. The title is "Derren Brown: Miracle" (no type information is provided, but it's not necessary for this description).
+2. Checking how "Derren Brown: Miracle" is "rated": the rating is "TV-MA".
+3. The title is not suitable because it is rated "TV-MA".
+4. Description: The show "Derren Brown: Miracle" is not suitable because it is rated TV-MA.
+
+Let me know if this is correct!

@@ -1,0 +1,10 @@
+http://www.netflix.com/nf-schema#s3828	0.015133419511619615	"Still LAUGH-IN: The Stars Celebrate"	*	Still LAUGH-IN: The Stars Celebrate is not a suitable recommendation because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s7664	0.015126859182656003	"One Last Thing"	*	"One Last Thing" is not a suitable recommendation because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s5512	0.015124115923286718	"Rodney King"	*	Rodney King is not a suitable recommendation because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s2754	0.015120627936888746	"Dave Chappelle: The Kennedy Center Mark Twain Prize for American Humor"	*	Dave Chappelle: The Kennedy Center Mark Twain Prize for American Humor is not a suitable recommendation because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s2609	0.015120188377019244	"Murder to Mercy: The Cyntoia Brown Story"	*	"Murder to Mercy: The Cyntoia Brown Story" is not a suitable recommendation because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s3241	0.015119372748914254	"Mike Birbiglia: What I Should Have Said Was Nothing: Tales from My Secret Public Journal"	*	Mike Birbiglia: What I Should Have Said Was Nothing: Tales from My Secret Public Journal is not a suitable recommendation because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s5079	0.015118961247759945	"Katt Williams: Great America"	*	Katt Williams: Great America is not a suitable recommendation because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s5006	0.015118961247759945	"Adel Karam: Live from Beirut"	*	Adel Karam: Live from Beirut is not a suitable recommendation because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s4413	0.015118961247759938	"John Leguizamo's Latin History for Morons"	*	John Leguizamo's Latin History for Morons is not a suitable recommendation because it is rated TV-MA.
+http://www.netflix.com/nf-schema#s3829	0.015118742693939438	"Weed the People"	*	"Weed the People" is not a suitable recommendation because it is rated TV-MA.

@@ -1,0 +1,27 @@
+This user has 24 items in his/her history.
+They are the following, grouped by rating:
+
+"Bobbleheads The Movie"	PG
+"Okko's Inn"	PG
+"Planet 51"	PG
+"Dante's Peak"	PG-13
+"22-Jul"	R
+"Felon"	R
+"So Much Love to Give"	TV-14
+"Soul Eater"	TV-14
+"My Octopus Teacher"	TV-G
+"I'm No Longer Here"	TV-MA
+"Leslie Jones: Time Machine"	TV-MA
+"Cheer"	TV-MA
+"Instant Hotel"	TV-MA
+"Ingress: The Animation"	TV-MA
+"Ari Shaffir: Double Negative"	TV-MA
+"La Niña"	TV-MA
+"6-5=2"	TV-MA
+"Dancing Quietly"	TV-MA
+"Head On"	TV-MA
+"Beyond Evil"	TV-MA
+"Sprinter"	TV-MA
+"Barbie in Rock 'N Royals"	TV-Y
+"Chhota Bheem in African Safari"	TV-Y7
+"Monster High: Why Do Ghouls Fall in Love?"	TV-Y7

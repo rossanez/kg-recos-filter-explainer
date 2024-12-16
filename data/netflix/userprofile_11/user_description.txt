@@ -1,0 +1,34 @@
+This user has 31 items in his/her history.
+They are the following, grouped by rating:
+
+"Escape from Planet Earth"	PG
+"As Good as It Gets"	PG-13
+"The Lord of the Rings: The Two Towers"	PG-13
+"An Imperfect Murder"	R
+"After We Collided"	R
+"Girl"	R
+"Day of the Dead: Bloodline"	R
+"Rogue Warfare: Death of a Nation"	R
+"Dead Again in Tombstone"	R
+"Escaping Tel Aviv"	TV-14
+"Sillu Karuppatti"	TV-14
+"Rainbow Jelly"	TV-14
+"Ek Jaan Hain Hum"	TV-14
+"Kitten Rescuers"	TV-14
+"Taken"	TV-14
+"NOVA: Black Hole Apocalypse"	TV-G
+"Dark City Beneath the Beat"	TV-MA
+"Roxanne Roxanne"	TV-MA
+"Belief: The Possession of Janet Moses"	TV-MA
+"Intersection"	TV-MA
+"Operações Especiais"	TV-MA
+"Trailer Park Boys: Drunk, High and Unemployed: Live in Austin"	TV-MA
+"Wet Hot American Summer"	TV-MA
+"Gabriel and the Mountain"	TV-MA
+"Sicilian Ghost Story"	TV-MA
+"The Vietnam War: A Film by Ken Burns and Lynn Novick"	TV-MA
+"Dérè: An African Tale"	TV-PG
+"Penguin Town"	TV-PG
+"Pee-wee's Playhouse: Christmas Special"	TV-PG
+"Chhota Bheem Aur Kaala Yodha"	TV-Y7
+"Krishna Balram"	TV-Y7

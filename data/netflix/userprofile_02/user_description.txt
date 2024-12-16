@@ -1,0 +1,50 @@
+This user has 47 items in his/her history.
+They are the following, grouped by rating:
+
+"Teenage Mutant Ninja Turtles: The Movie"	PG
+"I Am Not Your Negro"	PG-13
+"Terminator Salvation"	PG-13
+"The Devil All The Time"	R
+"21 & Over"	R
+"Blue Valentine"	R
+"Death at a Funeral"	R
+"The Spectacular Now"	R
+"Boys Over Flowers"	TV-14
+"Jagga Jasoos"	TV-14
+"White Rabbit Project"	TV-14
+"Dismissed"	TV-14
+"My Daddy is in Heaven"	TV-14
+"Reaction"	TV-14
+"Prince of Peoria: A Christmas Moose Miracle"	TV-G
+"The Princess Switch"	TV-G
+"Shootout at Lokhandwala"	TV-MA
+"Everything Will Be Fine"	TV-MA
+"Memories of a Murderer: The Nilsen Tapes"	TV-MA
+"Kevin Hart: Don’t F**k This Up"	TV-MA
+"The Game Changers"	TV-MA
+"Oversize Cops"	TV-MA
+"Hjørdis"	TV-MA
+"Nathicharami"	TV-MA
+"Hashoter Hatov"	TV-MA
+"Fugitiva"	TV-MA
+"Muzaffarnagar Baaqi Hai"	TV-MA
+"Bad Genius"	TV-MA
+"Bad Day for the Cut"	TV-MA
+"Judah Friedlander: America Is the Greatest Country in the United States"	TV-MA
+"The Tenth Man"	TV-MA
+"Wet Hot American Summer"	TV-MA
+"Anchor and Hope"	TV-MA
+"Devil's Bride"	TV-MA
+"Elite"	TV-MA
+"FTA"	TV-MA
+"The Great Battle"	TV-MA
+"Master of None"	TV-MA
+"Family Reunion"	TV-PG
+"John Mulaney & The Sack Lunch Bunch"	TV-PG
+"LEGENDS OF THE HIDDEN TEMPLE"	TV-PG
+"Michael Lost and Found"	TV-PG
+"Oddbods"	TV-Y
+"LEGO Marvel Super Heroes: Guardians of the Galaxy"	TV-Y
+"MONKART"	TV-Y7
+"忍者ハットリくん"	TV-Y7
+"Power Rangers Turbo"	TV-Y7

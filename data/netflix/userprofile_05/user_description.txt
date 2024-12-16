@@ -1,0 +1,47 @@
+This user has 44 items in his/her history.
+They are the following, grouped by rating:
+
+"Mad Ron's Prevues from Hell"	NR
+"Being Elmo: A Puppeteer's Journey"	PG
+"The Hurricane Heist"	PG-13
+"Peppermint"	R
+"In the Line of Fire"	R
+"Jeremiah Tower: The Last Magnificent"	R
+"Band Aid"	R
+"Billy Elliot"	R
+"Life After Beth"	R
+"Revolutionary Road"	R
+"Uppena"	TV-14
+"The Bride of Habaek"	TV-14
+"Talaash"	TV-14
+"Ultraman"	TV-14
+"Rangoon"	TV-14
+"Defying the Nazis: The Sharps' War"	TV-14
+"Los tiempos de Pablo Escobar"	TV-14
+"Ramji Londonwaley"	TV-14
+"The Devil We Know"	TV-14
+"Among Family"	TV-14
+"Big Time Rush"	TV-G
+"My Mother's Wound"	TV-MA
+"Berlin, Berlin: Lolle on the Run"	TV-MA
+"A Touch of Green"	TV-MA
+"Babylon Berlin"	TV-MA
+"Travis Scott: Look Mom I Can Fly"	TV-MA
+"13 Reasons Why: Beyond the Reasons"	TV-MA
+"Francesco De Carlo: Cose di Questo Mondo"	TV-MA
+"The Break"	TV-MA
+"Afflicted"	TV-MA
+"Tom Segura: Disgraceful"	TV-MA
+"Undercover"	TV-MA
+"Lucas Brothers: On Drugs"	TV-MA
+"Brotherhood of Blades II: The Infernal Battlefield"	TV-MA
+"A Family"	TV-MA
+"Once Upon a Time in London"	TV-MA
+"Q Ball"	TV-MA
+"Command and Control"	TV-PG
+"Dance Academy"	TV-PG
+"Great Interior Design Challenge"	TV-PG
+"The Rat Race"	TV-PG
+"Little Baby Bum: Go Buster"	TV-Y
+"Chhota Bheem: Journey to Petra"	TV-Y7
+"Power Rangers Samurai: Clash of the Red Rangers"	TV-Y7

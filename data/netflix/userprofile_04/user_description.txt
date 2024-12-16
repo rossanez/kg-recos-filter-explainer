@@ -1,0 +1,44 @@
+This user has 41 items in his/her history.
+They are the following, grouped by rating:
+
+"The Princess and the Frog"	G
+"K-19: The Widowmaker"	PG-13
+"I'm Thinking of Ending Things"	R
+"Kidnapping Mr. Heineken"	R
+"Personal Shopper"	R
+"Shor In the City"	TV-14
+"Dilan 1990"	TV-14
+"Sur: The Melody of Life"	TV-14
+"Penalty Kick"	TV-14
+"Tig Notaro Happy To Be Here"	TV-14
+"100% Hotter"	TV-14
+"Ahista Ahista"	TV-14
+"Empire of Scents"	TV-14
+"Expo"	TV-14
+"Gagarin: First in Space"	TV-14
+"Little Dragon Maiden"	TV-14
+"Nibunan"	TV-14
+"Sameer Abu Alneel"	TV-14
+"Tunisian Victory"	TV-14
+"Tanda Tanya"	TV-MA
+"Memories of a Teenager"	TV-MA
+"Baewatch: Parental Guidance"	TV-MA
+"Queen Sono"	TV-MA
+"Untold: Malice at the Palace"	TV-MA
+"You're My Destiny"	TV-MA
+"Exhibit A"	TV-MA
+"The Paper"	TV-MA
+"Vanjagar Ulagam"	TV-MA
+"In Darkness"	TV-MA
+"Jab Harry Met Sejal"	TV-MA
+"What Happened to Monday"	TV-MA
+"War Machine"	TV-MA
+"The Player"	TV-MA
+"Y.M.I.: Yeh Mera India"	TV-MA
+"The Missing Menu"	TV-PG
+"DreamWorks Spooky Stories"	TV-PG
+"No Tomorrow"	TV-PG
+"High Risk"	TV-PG
+"Dance Academy"	TV-PG
+"Willy and the Guardians of the Lake: Tales from the Lakeside Winter Adventure"	TV-Y
+"LeapFrog: Numberland"	TV-Y

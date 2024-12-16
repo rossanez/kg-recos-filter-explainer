@@ -1,0 +1,22 @@
+This user has 19 items in his/her history.
+They are the following, grouped by rating:
+
+"The Lamb"	PG
+"Murder Mystery"	PG-13
+"The Look of Silence"	PG-13
+"Too Handsome to Handle"	TV-14
+"Old Lord Savanna"	TV-14
+"Phantom"	TV-14
+"Ek Jaan Hain Hum"	TV-14
+"Joshua: Teenager vs. Superpower"	TV-14
+"Bibi & Tina II"	TV-14
+"Why Are We Getting So Fat?"	TV-14
+"Hospital"	TV-MA
+"Shine Your Eyes"	TV-MA
+"Patriot Act with Hasan Minhaj"	TV-MA
+"Norm Macdonald Has a Show"	TV-MA
+"The Cell"	TV-MA
+"Genius of the Ancient World"	TV-PG
+"We, the Marines"	TV-PG
+"Sofia the First"	TV-Y
+"Strawberry Shortcake: Berry Bitty Adventures"	TV-Y

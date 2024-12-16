@@ -1,0 +1,12 @@
+This user has 9 items in his/her history.
+They are the following, grouped by rating:
+
+"My Fair Lady"	G
+"Unknown"	PG-13
+"Our House"	PG-13
+"The Texas Chainsaw Massacre"	R
+"All's Well, End's Well (2009)"	TV-14
+"First They Killed My Father"	TV-MA
+"SHOT! The Psycho-Spiritual Mantra of Rock"	TV-MA
+"Garth Brooks: The Road I’m On"	TV-PG
+"Yu-Gi-Oh!"	TV-Y7

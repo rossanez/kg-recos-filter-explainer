@@ -1,0 +1,24 @@
+This user has 21 items in his/her history.
+They are the following, grouped by rating:
+
+"Katt Williams: Live"	NR
+"Russell Peters vs. the World"	NR
+"A.X.L."	PG
+"Lowriders"	PG-13
+"Into the Grizzly Maze"	R
+"Midnight Run"	R
+"El último testigo"	R
+"Love Jones"	R
+"Entangled"	TV-14
+"A.D. Kingdom and Empire"	TV-14
+"Defying the Nazis: The Sharps' War"	TV-14
+"The Andy Griffith Show"	TV-G
+"Love & Anarchy"	TV-MA
+"Thiago Ventura: POKAS"	TV-MA
+"Macho"	TV-MA
+"Toro"	TV-MA
+"Amanda Knox"	TV-MA
+"Balu Mahi"	TV-MA
+"Memoir of a Murderer"	TV-MA
+"Quiet Victory: The Charlie Wedemeyer Story"	TV-PG
+"Ek Cup Chya"	TV-PG

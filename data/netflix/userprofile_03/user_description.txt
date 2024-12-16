@@ -1,0 +1,18 @@
+This user has 15 items in his/her history.
+They are the following, grouped by rating:
+
+"Stronger Than the World"	NR
+"Inconceivable"	R
+"Two Lovers and a Bear"	R
+"Love for Sale"	TV-14
+"The Legend of White Snake"	TV-14
+"Chalay Thay Saath"	TV-14
+"Filinta"	TV-14
+"Dedemin Fisi"	TV-14
+"Rita"	TV-MA
+"Last Summer"	TV-MA
+"All The Reasons To Forget"	TV-MA
+"The Unknown Girl"	TV-MA
+"True: Terrific Tales"	TV-Y
+"Leo & Tig"	TV-Y
+"Ollie & Moon"	TV-Y

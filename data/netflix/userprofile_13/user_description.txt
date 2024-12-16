@@ -1,0 +1,45 @@
+This user has 42 items in his/her history.
+They are the following, grouped by rating:
+
+"Aliens Ate My Homework"	PG
+"Green Lantern"	PG-13
+"Jeremy Scott: The People's Designer"	PG-13
+"Nowhere Boy"	R
+"Next in Fashion"	TV-14
+"Ghost in the Shell: SAC_2045"	TV-14
+"Jada"	TV-14
+"Ainori Love Wagon: African Journey"	TV-14
+"10 Days in Sun City"	TV-14
+"First Kiss"	TV-14
+"Myth & Mogul: John DeLorean"	TV-14
+"A Thousand Goodnights"	TV-14
+"Virsa"	TV-14
+"Penalty Kick"	TV-14
+"The Night Shift"	TV-14
+"Truckbhar Swapna"	TV-14
+"Sample This"	TV-14
+"7 (Seven)"	TV-14
+"Golmaal: Fun Unlimited"	TV-14
+"The Chosen"	TV-14
+"The Gathering"	TV-14
+"The Great Gambler"	TV-14
+"Space Sweepers"	TV-MA
+"Jenni Rivera: Mariposa de Barrio"	TV-MA
+"Hollywood"	TV-MA
+"Fronteras"	TV-MA
+"Sparta"	TV-MA
+"Animas"	TV-MA
+"Baazaar"	TV-MA
+"Kai Po Che!"	TV-MA
+"Happy Anniversary"	TV-MA
+"Mr. Roosevelt"	TV-MA
+"Broadchurch"	TV-MA
+"The Show"	TV-MA
+"Weeds"	TV-MA
+"Westside vs. the World"	TV-MA
+"Either Me Or My Auntie"	TV-PG
+"Merry Happy Whatever"	TV-PG
+"Martin Luther: The Idea that Changed the World"	TV-PG
+"Charming"	TV-Y7
+"Green Eggs and Ham"	TV-Y7
+"Fangbone"	TV-Y7

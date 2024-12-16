@@ -1,0 +1,45 @@
+This user has 42 items in his/her history.
+They are the following, grouped by rating:
+
+"Exit Strategy"	NR
+"Dr. Seuss' The Cat in the Hat"	PG
+"Strictly Ballroom"	PG
+"Lady in the Water"	PG-13
+"Undercover Brother 2"	R
+"Blow"	R
+"Good Game: The Beginning"	TV-14
+"The Claudia Kishi Club"	TV-14
+"Bhangra Paa Le"	TV-14
+"Manje Bistre"	TV-14
+"The Last Shaman"	TV-14
+"Salaakhen"	TV-14
+"So Not Worth It"	TV-14
+"Kaalia"	TV-14
+"Laal Rang"	TV-14
+"Veerappan"	TV-14
+"Among Family"	TV-14
+"The Netflix Afterparty: The Best Shows of The Worst Year"	TV-MA
+"Blue Exorcist"	TV-MA
+"Fear City: New York vs The Mafia"	TV-MA
+"The Defeated"	TV-MA
+"How to Fix a Drug Scandal"	TV-MA
+"The Good Bandit"	TV-MA
+"Bombairiya"	TV-MA
+"Paradise Lost"	TV-MA
+"Garbage"	TV-MA
+"Extinction"	TV-MA
+"Happy Anniversary"	TV-MA
+"The Frozen Dead"	TV-MA
+"The Blind Christ"	TV-MA
+"Berserk: The Golden Age Arc I - The Egg of the King"	TV-MA
+"An Upper Egyptian"	TV-MA
+"Bala Loca"	TV-MA
+"Pahuyut Fighting Beat"	TV-MA
+"Voices of Fire"	TV-PG
+"The Witness Who Didn't See Anything"	TV-PG
+"Minsara Kanavu"	TV-PG
+"My Next Guest with David Letterman and Shah Rukh Khan"	TV-PG
+"Bruno and Boots: Go Jump in the Pool"	TV-PG
+"Jake's Buccaneer Blast"	TV-Y
+"Luv Kushh"	TV-Y7
+"Huntik: Secrets and Seekers"	TV-Y7

@@ -1,0 +1,49 @@
+This user has 46 items in his/her history.
+They are the following, grouped by rating:
+
+"Austin Powers in Goldmember"	PG-13
+"Miss Sloane"	R
+"Hard Kill"	R
+"Boogie Nights"	R
+"Revenge of the Green Dragons"	R
+"The One I Love"	R
+"One on One"	TV-14
+"Cairo Station"	TV-14
+"Tarek's Situation"	TV-14
+"Reign"	TV-14
+"Elaan"	TV-14
+"Bleach the Movie: Hell Verse"	TV-14
+"Fall in Love with Me"	TV-14
+"Ghost Town Gold"	TV-14
+"Paathi"	TV-14
+"Sanai Choughade"	TV-14
+"The Bund"	TV-14
+"The Last Resort"	TV-14
+"Midnight at the Magnolia"	TV-G
+"Headspace: Unwind Your Mind"	TV-G
+"The Soul"	TV-MA
+"The Wedding Coach"	TV-MA
+"A Perfect Day For Arsenide"	TV-MA
+"Natalie Palamides: Nate - A One Man Show"	TV-MA
+"Maurício Meirelles: Generating Chaos"	TV-MA
+"System Crasher"	TV-MA
+"Mike Birbiglia: The New One"	TV-MA
+"Monty Python's Fliegender Zirkus"	TV-MA
+"The Break with Michelle Wolf"	TV-MA
+"Godless"	TV-MA
+"Little Evil"	TV-MA
+"Rocco"	TV-MA
+"Okja"	TV-MA
+"Mr. Pig"	TV-MA
+"Welcome Mr. President"	TV-MA
+"Beasts of No Nation"	TV-MA
+"Ghost House"	TV-MA
+"Nuestra Lucha Libre"	TV-MA
+"Alan Saldaña: Locked Up"	TV-MA
+"The Daughter"	TV-MA
+"Story of Kale: When Someone's in Love"	TV-PG
+"Our Lady of San Juan, Four Centuries of Miracles"	TV-PG
+"Monster Hunter: Legends of the Guild"	TV-PG
+"The Last Man on the Moon"	TV-PG
+"LEGO Jurassic World: Secret Exhibit"	TV-Y
+"The Wiggles"	TV-Y

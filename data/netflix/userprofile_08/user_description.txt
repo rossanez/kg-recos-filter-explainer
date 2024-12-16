@@ -1,0 +1,36 @@
+This user has 33 items in his/her history.
+They are the following, grouped by rating:
+
+"Surf's Up"	PG
+"The Theory of Everything"	PG-13
+"Don Verdean"	PG-13
+"The Lovebirds"	R
+"The Delivery Boy"	TV-14
+"The Last Bomb of the Second World War"	TV-14
+"Ryan Hamilton: Happy Face"	TV-14
+"Azhar"	TV-14
+"Daagdi Chaawl"	TV-14
+"The Rope Curse 2"	TV-MA
+"How To Ruin Christmas"	TV-MA
+"Why Me?"	TV-MA
+"Sex Education"	TV-MA
+"Gun City"	TV-MA
+"Duck Butter"	TV-MA
+"Rush: Beyond the Lighted Stage"	TV-MA
+"Wyatt Cenac: Brooklyn"	TV-MA
+"Club Friday The Series 8"	TV-MA
+"Gabriel and the Mountain"	TV-MA
+"Ghulam-E-Musthafa"	TV-MA
+"Picture a Scientist"	TV-MA
+"Mandi"	TV-MA
+"Total Drama"	TV-PG
+"The Letter Reader"	TV-PG
+"Christmas With A View"	TV-PG
+"Shaun the Sheep: The Farmer’s Llamas"	TV-Y
+"Angela's Christmas Wish"	TV-Y
+"Molang"	TV-Y
+"My Little Pony Equestria Girls: Rollercoaster of Friendship"	TV-Y
+"Octonauts: Above & Beyond"	TV-Y
+"LEGO Ninjago"	TV-Y7
+"Little Singham"	TV-Y7
+"Beyblade Burst Turbo"	TV-Y7

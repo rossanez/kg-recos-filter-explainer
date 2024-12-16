@@ -2,6 +2,8 @@ from argparse import ArgumentParser
 from rdflib import Graph, URIRef
 from sys import argv
 
+from config import Config
+
 def loadKG(filename):
     print(f'Loading {filename} as an RDFLib graph ...')
 
@@ -10,12 +12,12 @@ def loadKG(filename):
 
     return graph
 
-def getEntries(userProfileKG):
+def getEntries(userProfileKG, predicates):
     print(f'Querying user-profike KG ...')
 
     descriptions = []
-    for entry, title in userProfileKG.subject_objects(predicate=URIRef('http://www.netflix.com/nf-schema#title')):
-        ratings = [g for g in userProfileKG.objects(subject=URIRef(entry), predicate=URIRef('http://www.netflix.com/nf-schema#rated'))]
+    for entry, title in userProfileKG.subject_objects(predicate=URIRef(predicates[0])):
+        ratings = [g for g in userProfileKG.objects(subject=URIRef(entry), predicate=URIRef(predicates[1]))]
         rating = ratings[0].split('#')
         descriptions.append((title, rating[1]))
 
@@ -42,8 +44,9 @@ def main(args):
 
 #    catalogKG = loadKG(catalog)
     userProfileKG = loadKG(profile)
-
-    entries = getEntries(userProfileKG)
+    
+    cfg = Config()
+    entries = getEntries(userProfileKG, cfg.getUserPredicates())
     
     with open(f'user_description.txt', 'w') as output:
         output.write(f"This user has {len(entries)} items in his/her history.\nThey are the following, grouped by rating:\n\n")

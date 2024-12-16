@@ -8,6 +8,9 @@ class Config:
     __FILTER_SECTION_NAME = "FILTER"
     __FILTER_SPARQL_KEY_NAME = "sparql"
 
+    __USER_SECTION_NAME = "USER"
+    __USER_PREDS_KEY_NAME = "predicates"
+
     __PROMPT_SECTION_NAME = "PROMPT"
     __PROMPT_INSTRUCTIONS_KEY_NAME = "instructions"
     __PROMPT_FEWSHOTS_KEY_NAME = "fewshots"
@@ -22,6 +25,10 @@ class Config:
 
     def getFilterQuery(self):
         return self.__parser.get(self.__FILTER_SECTION_NAME, self.__FILTER_SPARQL_KEY_NAME)
+
+    def getUserPredicates(self):
+        e = self.__parser.get(self.__USER_SECTION_NAME, self.__USER_PREDS_KEY_NAME)
+        return ast.literal_eval(e)
 
     def getPromptInstructions(self):
         return self.__parser.get(self.__PROMPT_SECTION_NAME, self.__PROMPT_INSTRUCTIONS_KEY_NAME)

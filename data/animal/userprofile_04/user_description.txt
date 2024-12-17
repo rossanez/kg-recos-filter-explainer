@@ -1,0 +1,5 @@
+This cow has the following characteristics:
+
+"http://animal-drugs.com/properties#has_allergy"	http://animal-drugs.com/Drugs#Penicillin
+"http://animal-drugs.com/properties#has_condition"	http://animal-drugs.com/conditions#clinical_mastitis
+"http://animal-drugs.com/properties#has_age"	2

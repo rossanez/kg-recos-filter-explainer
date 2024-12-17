@@ -1,8 +1,9 @@
 from argparse import ArgumentParser
-from rdflib import Graph, URIRef
+from rdflib import Graph
 from sys import argv
 
 from config import Config
+from user import genDescription
 
 def loadKG(filename):
     print(f'Loading {filename} as an RDFLib graph ...')
@@ -11,19 +12,6 @@ def loadKG(filename):
     graph.parse(filename, format="turtle")
 
     return graph
-
-def getEntries(userProfileKG, predicates):
-    print(f'Querying user-profike KG ...')
-
-    descriptions = []
-    for entry, title in userProfileKG.subject_objects(predicate=URIRef(predicates[0])):
-        ratings = [g for g in userProfileKG.objects(subject=URIRef(entry), predicate=URIRef(predicates[1]))]
-        rating = ratings[0].split('#')
-        descriptions.append((title, rating[1]))
-
-    descriptions.sort(key=lambda tup: tup[1])
-
-    return descriptions
 
 def main(args):
     arg_p = ArgumentParser('python describe_user.py', description='Generates a brief description on an userprofile KG.')
@@ -46,12 +34,7 @@ def main(args):
     userProfileKG = loadKG(profile)
     
     cfg = Config()
-    entries = getEntries(userProfileKG, cfg.getUserPredicates())
-    
-    with open(f'user_description.txt', 'w') as output:
-        output.write(f"This user has {len(entries)} items in his/her history.\nThey are the following, grouped by rating:\n\n")
-        for entry in entries:
-            output.write(f"\"{entry[0]}\"\t{entry[1]}\n")
+    genDescription(userProfileKG, cfg.getUserPredicates())
 
 if __name__ == '__main__':
     exit(main(argv))

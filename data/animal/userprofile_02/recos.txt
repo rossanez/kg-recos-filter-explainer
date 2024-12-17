@@ -1,0 +1,6 @@
+http://animal-drugs.com/Medications#Cephalexin	1
+http://animal-drugs.com/Medications#Cephapirin	2
+http://animal-drugs.com/Medications#Ampicillin	3
+http://animal-drugs.com/Medications#Danofloxacin	4
+http://animal-drugs.com/Medications#Enrofloxacin	5
+http://animal-drugs.com/Medications#Cefquinome	6

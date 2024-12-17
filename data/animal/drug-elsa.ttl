@@ -1,0 +1,132 @@
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>   .
+@prefix dinto: <http://animal-drugs.com/properties#> .
+@prefix med: <http://animal-drugs.com/Medications#> .
+@prefix adv: <http://animal-drugs.com/AdverseEffects#> .
+@prefix sev: <http://animal-drugs.com/AdverseEffectSeverities#> .
+
+
+med:Cloxacillin dinto:has_effect adv:upset_stomach .
+adv:upset_stomach dinto:has_severity sev:common .
+med:Cloxacillin dinto:has_effect adv:nausea .
+adv:nausea dinto:has_severity sev:common .
+med:Cloxacillin dinto:has_effect adv:vomiting .
+adv:vomiting dinto:has_severity sev:common .
+med:Cloxacillin dinto:has_effect adv:diarrhea .
+adv:diarrhea dinto:has_severity sev:common .
+med:Cloxacillin dinto:has_effect adv:gas .
+adv:gas dinto:has_severity sev:common .
+med:Cloxacillin dinto:has_effect adv:mouth_sores .
+adv:mouth_sores dinto:has_severity sev:common .
+
+med:Procainebenzylpenicillin dinto:has_effect adv:pain_at_injection .
+adv:pain_at_injection dinto:has_severity sev:common .
+med:Procainebenzylpenicillin dinto:has_effect adv:blood_clotting .
+adv:blood_clotting dinto:has_severity sev:common .
+med:Procainebenzylpenicillin dinto:has_effect adv:Seizures .
+adv:Seizures dinto:has_severity sev:common .
+med:Procainebenzylpenicillin dinto:has_effect adv:allergic_reactions .
+adv:allergic_reactions dinto:has_severity sev:common .
+med:Procaine_penicillin dinto:has_effect adv:seizures .
+adv:seizures dinto:has_severity sev:severe .
+med:ProcainePenicillin dinto:has_effect adv:CNS_abnormalities .
+adv:CNS_abnormalities dinto:has_severity sev:severe .
+med:Cephapirin dinto:has_effect adv:Allergic_reaction .
+adv:Allergic_reaction dinto:has_severity sev:common .
+
+med:Cephapirin dinto:has_effect adv:Fever .
+adv:Fever dinto:has_severity sev:common .
+med:Cephapirin dinto:has_effect adv:pain_at_injection .
+adv:pain_at_injection rdf:type dinto:Adverse_effect .
+adv:pain_at_injection dinto:has_severity sev:common .
+med:Procainebenzylpenicillin rdf:possible_resistance_to dinto:Staphylococcus_aureus .
+med:Cefquinome dinto:has_target_species dinto:cattle .
+med:Cefquinome dinto:has_target_species dinto:pigs .
+med:Cefquinome dinto:may_cause_resistance_in dinto:Salmonella .
+med:Cefquinome dinto:may_cause_resistance_in dinto:Staphylococcus_aureus .
+med:Penethamate_hydroiodide dinto:has_effect adv:pain_at_injection .
+adv:pain_at_injection dinto:has_severity sev:common .
+med:Penethamate_hydroiodide dinto:has_effect adv:blood_clotting .
+adv:blood_clotting dinto:has_severity sev:common .
+med:Penethamate_hydroiodide dinto:has_effect adv:seizures .
+adv:seizures dinto:has_severity sev:common .
+med:Penethamate_hydroiodide dinto:has_effect adv:Allergic_reactions .
+adv:Allergic_reactions dinto:has_severity sev:common .
+med:Penethamate_hydroiodide dinto:has_target_species dinto:pigs .
+med:Penethamate_hydroiodide dinto:has_target_species dinto:cattle .
+med:Penethamate_hydroiodide dinto:has_target_species dinto:horses .
+med:Penethamate_hydroiodide dinto:has_target_species dinto:goat .
+med:Penethamate_hydroiodide dinto:has_target_species dinto:sheep .
+med:Penethamate_hydroiodide rdf:possible_resistance_to dinto:Staphylococcus_aureus .
+med:Tylosin dinto:has_target_species dinto:cattle .
+med:Tylosin dinto:has_target_species dinto:pigs .
+med:Tylosin dinto:has_target_species dinto:sheep .
+med:Tylosin dinto:has_effect adv:pain_at_injection .
+adv:pain_at_injection dinto:has_severity sev:common .
+med:Tylosin dinto:has_effect adv:Inflammation_at_the_injection_site .
+adv:Inflammation_at_the_injection_site dinto:has_severity sev:common .
+med:Tylosin dinto:has_effect adv:mild_diarrhea .
+adv:mild_diarrhea dinto:has_severity sev:common .
+# med:Ampicillin dinto:to_treat <Condition/cattle .
+# <Condition/cattle rdf:type dinto:Condition .
+med:Ampicillin rdf:type dinto:Medication .
+med:Ampicillin dinto:has_target_species dinto:pigs .
+med:Ampicillin rdf:type dinto:Medication .
+med:Ampicillin dinto:has_effect adv:rash .
+adv:rash dinto:has_severity sev:common .
+adv:nausea rdf:type dinto:Adverse_effect .
+adv:nausea dinto:has_severity sev:common .
+adv:diarrhea rdf:type dinto:Adverse_effect .
+adv:diarrhea dinto:has_severity sev:common .
+med:Ampicillin dinto:has_effect adv:Clostridium_difficile_colitis .
+adv:Clostridium_difficile_colitis dinto:has_severity sev:severe .
+med:Ampicillin dinto:has_effect adv:anaphylaxis .
+adv:anaphylaxis dinto:has_severity sev:severe .
+med:Hexi dinto:has_target_species dinto:chicken .
+med:Hexi dinto:has_target_species dinto:cattle .
+med:Hexi rdf:type dinto:Medication .
+# <dinto:cattle rdf:type dinto:Target_species .
+# <dinto:has_target_species rdf:type rdf:Property .
+# <dinto:Target_species rdf:type rdf:Class .
+# <dinto:Medication rdf:type rdf:Class .
+# <dinto:cattle rdf:type dinto:Target_species .
+med:Hexi dinto:has_target_species dinto:pigs .
+adv:Vomiting rdf:type dinto:Adverse_effect .
+adv:Vomiting dinto:has_severity sev:common .
+adv:diarrhea rdf:type dinto:Adverse_effect .
+adv:diarrhea dinto:has_severity sev:common .
+med: dinto:has_effect adv:Lack_of_appetite .
+adv:Lack_of_appetite dinto:has_severity sev:common .
+adv:seizures rdf:type dinto:Adverse_effect .
+adv:seizures dinto:has_severity sev:severe .
+adv:Allergic_reactions rdf:type dinto:Adverse_effect .
+adv:Allergic_reactions dinto:has_severity sev:severe .
+adv:Lethargy rdf:type dinto:Adverse_effect .
+adv:Lethargy dinto:has_severity sev:severe .
+med:Enrofloxacin dinto:has_target_species dinto:cattle .
+med:Enrofloxacin dinto:has_target_species dinto:sheep .
+med:Enrofloxacin dinto:has_target_species dinto:goat .
+
+med:Marbofloxacin dinto:has_target_species dinto:cats .
+med:Marbofloxacin dinto:has_target_species dinto:dogs .
+med:Marbofloxacin dinto:has_effect adv:vomiting .
+adv:vomiting dinto:has_severity sev:common .
+med:Marbofloxacin dinto:has_effect adv:anorexia .
+# adv:anorexia dinto:has_severity ? .
+med:Marbofloxacin dinto:has_effect adv:soft_stools .
+adv:soft_stools dinto:has_severity sev:common .
+
+med:Marbofloxacin dinto:has_effect adv:diarrhea .
+adv:diarrhea dinto:has_severity sev:common .
+med:Marbofloxacin dinto:has_effect adv:decreased_activity .
+adv:decreased_activity dinto:has_severity sev:common .
+med:Cephalexin dinto:has_effect adv:diarrhea .
+adv:diarrhea dinto:has_severity sev:common .
+med:Cephalexin dinto:has_effect adv:nausea .
+adv:nausea dinto:has_severity sev:common .
+med:Cephalexin dinto:has_effect adv:vomiting .
+adv:vomiting dinto:has_severity sev:common .
+med:Cephalexin dinto:has_effect adv:indigestion .
+adv:indigestion dinto:has_severity sev:common .
+med:Cephalexin dinto:has_effect adv:Stomach_pain .
+adv:Stomach_pain dinto:has_severity sev:common .
+med:Cephalexin rdf:possible_resistance_to dinto:Staphylococcus_aureus .

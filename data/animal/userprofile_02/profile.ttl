@@ -1,0 +1,9 @@
+@prefix	ent:	<http://animal-drugs.com/entities#>	.
+@prefix	prop:	<http://animal-drugs.com/properties#>	.
+@prefix	cond:	<http://animal-drugs.com/conditions#>	.
+@prefix	xsd:	<http://www.w3.org/2001/XMLSchema#>	.
+
+ent:cow2	prop:has_id	'02'^^xsd:integer	.
+ent:cow2	prop:has_age	'1'^^xsd:integer	.
+ent:cow2	prop:has_condition	cond:sub-clinical_mastitis	.
+

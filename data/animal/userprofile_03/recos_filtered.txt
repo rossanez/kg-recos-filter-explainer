@@ -1,0 +1,5 @@
+http://animal-drugs.com/Medications#Cloxacillin	1	*
+http://animal-drugs.com/Medications#Tylosine	2
+http://animal-drugs.com/Medications#Cephapirin	3	*
+http://animal-drugs.com/Medications#Cefquinome	4
+http://animal-drugs.com/Medications#Procainebenzylpenicillin	5	*

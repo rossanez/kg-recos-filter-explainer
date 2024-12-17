@@ -1,0 +1,5 @@
+http://animal-drugs.com/Medications#Cloxacillin	1
+http://animal-drugs.com/Medications#Procainebenzylpenicillin	2
+http://animal-drugs.com/Medications#Penethamate_hydroiodide	3
+http://animal-drugs.com/Medications#Tylosine	4
+http://animal-drugs.com/Medications#Cephalexin	5

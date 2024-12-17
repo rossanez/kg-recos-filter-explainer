@@ -1,0 +1,11 @@
+@prefix	ent:	<http://animal-drugs.com/entities#>	.
+@prefix	prop:	<http://animal-drugs.com/properties#>	.
+@prefix	cond:	<http://animal-drugs.com/conditions#>	.
+@prefix	fam:	<http://animal-drugs.com/Drugs#>	.
+@prefix	xsd:    <http://www.w3.org/2001/XMLSchema#>     .
+
+ent:cow4	prop:has_id	'04'^^xsd:integer	.
+ent:cow4	prop:has_age	'2'^^xsd:integer	.
+ent:cow4	prop:has_condition	cond:clinical_mastitis	.
+ent:cow4	prop:has_allergy	fam:Penicillin	.
+

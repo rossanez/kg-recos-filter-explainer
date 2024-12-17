@@ -29,7 +29,11 @@ def getPromptTriples(item, catalogKG, config):
 def getItemName(item, catalogKG, config):
     preds = config.getPromptInputPredicates()
     objs = [o for o in catalogKG.objects(subject=URIRef(item), predicate=URIRef(preds[1]))]
-    return objs[0]
+    if len(objs) > 0:
+        return objs[0]
+    else:
+        objs = item.split('#')
+        return objs[1].replace('_', ' ')
 
 def explainFilteredRecos(filename, catalogKG, llmModel, llmTemp, config):
     print(f'Explaining filtered recos from {filename} ...')

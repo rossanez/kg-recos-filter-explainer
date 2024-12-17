@@ -1,0 +1,5 @@
+http://animal-drugs.com/Medications#Cloxacillin	1	"Cloxacillin"	*	Cloxacillin is not a suitable recommendation because it can cause upset stomach, nausea, vomiting, diarrhea, gas, and mouth sores.
+http://animal-drugs.com/Medications#Tylosine	2	"Tylosine"
+http://animal-drugs.com/Medications#Cephapirin	3	"Cephapirin"	*	Cephapirin is not a suitable recommendation because it can cause Allergic reaction, Fever, and pain at injection.
+http://animal-drugs.com/Medications#Cefquinome	4	"Cefquinome"
+http://animal-drugs.com/Medications#Procainebenzylpenicillin	5	"Procainebenzylpenicillin"	*	Procainebenzylpenicillin is not a suitable recommendation because it causes pain at injection, blood clotting, seizures, and allergic reactions.

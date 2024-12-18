@@ -1,0 +1,41 @@
+http://animal-drugs.com/Medications#Cephalexin	1	"Cephalexin"	*	Here is the reasoning process and the generated textual description:
+
+Reasoning:
+
+1. The medication is Cephalexin.
+2. Checking the medication's "has_effect": the adverse effects are "diarrhea", "nausea", "vomiting", and "indigestion", and "Stomach pain".
+3. All these adverse effects have no specific severity mentioned, but they are all related to gastrointestinal issues.
+4. Description: Cephalexin is not a suitable medication, as it may cause a range of stomach-related problems, including diarrhea, nausea, vomiting, indigestion, and stomach pain.
+
+Note: Since there is no specific severity mentioned for each adverse effect, the description focuses on the common theme of gastrointestinal issues.
+http://animal-drugs.com/Medications#Ampicillin	2	"Ampicillin"	*	Here is the reasoning process and the generated textual description:
+
+Reasoning:
+
+1. The medication is Ampicillin.
+2. Checking the medication's "has_effect": the adverse effects are "rash", "Clostridium difficile colitis", and "anaphylaxis".
+3. No additional information about the severity of these effects is provided.
+4. Description: Ampicillin is not a suitable medication, as it may cause a rash, Clostridium difficile colitis, and anaphylaxis.
+
+Note: Since there is no information about the severity of the adverse effects, the description only lists the effects without specifying their severity.
+http://animal-drugs.com/Medications#Cefquinome	3	"Cefquinome"	*	Please provide the triples for the third example, and I'll generate the textual description and show the reasoning process step by step.
+
+(Please go ahead and provide the triples)
+http://animal-drugs.com/Medications#Enrofloxacin	4	"Enrofloxacin"	*	Please provide the triples for the third example, and I'll generate the textual description and show the reasoning process step by step.
+
+(Please go ahead and provide the triples)
+http://animal-drugs.com/Medications#Marbofloxacin	5	"Marbofloxacin"	*	Here is the generated textual description with the step-by-step reasoning process:
+
+Triples:
+<http://animal-drugs.com/Medications#Marbofloxacin>	<http://animal-drugs.com/properties#has_effect>	<http://animal-drugs.com/AdverseEffects#vomiting>	. 
+<http://animal-drugs.com/Medications#Marbofloxacin>	<http://animal-drugs.com/properties#has_effect>	<http://animal-drugs.com/AdverseEffects#anorexia>	. 
+<http://animal-drugs.com/Medications#Marbofloxacin>	<http://animal-drugs.com/properties#has_effect>	<http://animal-drugs.com/AdverseEffects#soft_stools>	. 
+<http://animal-drugs.com/Medications#Marbofloxacin>	<http://animal-drugs.com/properties#has_effect>	<http://animal-drugs.com/AdverseEffects#diarrhea>	. 
+<http://animal-drugs.com/Medications#Marbofloxacin>	<http://animal-drugs.com/properties#has_effect>	<http://animal-drugs.com/AdverseEffects#decreased_activity>	.
+
+Reasoning:
+
+1. The medication is Marbofloxacin.
+2. Checking the medication's effects: the adverse effects are vomiting, anorexia, soft stools, diarrhea, and decreased activity.
+3. Multiple adverse effects are identified, which can impact the medication's suitability.
+4. Description: Marbofloxacin is not a suitable medication, as it may cause a range of adverse effects including vomiting, anorexia, soft stools, diarrhea, and decreased activity.

@@ -1,0 +1,39 @@
+http://animal-drugs.com/Medications#Cloxacillin	1	"Cloxacillin"	*	Here is the reasoning process and the generated textual description:
+
+Reasoning:
+
+1. The medication is Cloxacillin.
+2. Checking the medication's "has_effect": the adverse effects are "upset stomach", "nausea", "vomiting", "diarrhea", "gas", and "mouth sores".
+3. All these adverse effects are related to gastrointestinal issues, which can be uncomfortable and disturbing.
+4. Description: Cloxacillin is not a suitable medication, as it may cause a range of uncomfortable gastrointestinal side effects, including upset stomach, nausea, vomiting, diarrhea, gas, and mouth sores.
+http://animal-drugs.com/Medications#Procainebenzylpenicillin	2	"Procainebenzylpenicillin"	*	Here is the reasoning process and the generated textual description:
+
+Reasoning:
+
+1. The medication is Procainebenzylpenicillin.
+2. Checking the medication's "has_effect": the adverse effects are "pain at injection", "blood clotting", "Seizures", and "allergic reactions".
+3. No additional information about the severity of these effects is provided.
+4. Description: Procainebenzylpenicillin is not a suitable medication, as it may cause pain at injection, blood clotting, seizures, and allergic reactions.
+
+Note: Since there is no information about the severity of the adverse effects, the description only lists the potential effects without specifying their severity.
+http://animal-drugs.com/Medications#Penethamate_hydroiodide	3	"Penethamate hydroiodide"	*	Here is the reasoning process and the generated textual description:
+
+Reasoning:
+
+1. The medication is Penethamate hydroiodide.
+2. Checking the medication's "has_effect": the adverse effects are "pain at injection", "blood clotting", "seizures", and "Allergic reactions".
+3. No additional information about the severity of these effects is provided.
+4. Description: Penethamate hydroiodide is not a suitable medication, as it may cause pain at injection, blood clotting, seizures, and allergic reactions.
+
+Note: Since there is no information about the severity of the adverse effects, the description only lists the potential effects without specifying their severity.
+http://animal-drugs.com/Medications#Tylosine	4	"Tylosine"
+http://animal-drugs.com/Medications#Cephalexin	5	"Cephalexin"	*	Here is the reasoning process and the generated textual description:
+
+Reasoning:
+
+1. The medication is Cephalexin.
+2. Checking the medication's "has_effect": the adverse effects are "diarrhea", "nausea", "vomiting", and "indigestion", and "Stomach pain".
+3. All these adverse effects have no specific severity mentioned, but they are all related to gastrointestinal issues.
+4. Description: Cephalexin is not a suitable medication, as it may cause a range of stomach-related problems, including diarrhea, nausea, vomiting, indigestion, and stomach pain.
+
+Note: Since there is no specific severity mentioned for each adverse effect, the description focuses on the common theme of gastrointestinal issues.

@@ -130,3 +130,10 @@ adv:indigestion dinto:has_severity sev:common .
 med:Cephalexin dinto:has_effect adv:Stomach_pain .
 adv:Stomach_pain dinto:has_severity sev:common .
 med:Cephalexin rdf:possible_resistance_to dinto:Staphylococcus_aureus .
+
+# Penicillin family
+med:Aminopenicillin	rdf:type	med:Penicillin	.
+med:Ampicillin	rdf:type	med:Penicillin	.
+med:Penethamate_hydroiodide	rdf:type	med:Penicillin	.
+med:Procainebenzylpenicillin	rdf:type	med:Penicillin	.
+med:Cloxacillin	rdf:type	med:Penicillin	.

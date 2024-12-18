@@ -1,0 +1,5 @@
+http://animal-drugs.com/Medications#Cephalexin	1	*
+http://animal-drugs.com/Medications#Ampicillin	2	*
+http://animal-drugs.com/Medications#Cefquinome	3	*
+http://animal-drugs.com/Medications#Enrofloxacin	4	*
+http://animal-drugs.com/Medications#Marbofloxacin	5	*

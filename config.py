@@ -7,6 +7,7 @@ class Config:
 
     __FILTER_SECTION_NAME = "FILTER"
     __FILTER_SPARQL_KEY_NAME = "sparql"
+    __FILTER_USER_SPARQL_KEY_NAME = "user_sparql"
 
     __USER_SECTION_NAME = "USER"
     __USER_PREDS_KEY_NAME = "predicates"
@@ -25,6 +26,9 @@ class Config:
 
     def getFilterQuery(self):
         return self.__parser.get(self.__FILTER_SECTION_NAME, self.__FILTER_SPARQL_KEY_NAME)
+
+    def getFilterUserQuery(self):
+        return self.__parser.get(self.__FILTER_SECTION_NAME, self.__FILTER_USER_SPARQL_KEY_NAME)
 
     def getUserPredicates(self):
         e = self.__parser.get(self.__USER_SECTION_NAME, self.__USER_PREDS_KEY_NAME)

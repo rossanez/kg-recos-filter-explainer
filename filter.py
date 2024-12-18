@@ -13,7 +13,7 @@ def loadKG(filename):
 
     return graph
 
-def filterRecos(filename, catalogKG, queryStr):
+def filterRecos(filename, catalogKG, userProfileKG, queryStr, userQueryStr):
     print(f'Filtering recos from {filename} ...')
 
     split_filename = filename.split('.')
@@ -29,7 +29,18 @@ def filterRecos(filename, catalogKG, queryStr):
                 print(f'{item} is not suitable!')
                 output.write(f'{contents[0]}\t{contents[1]}\t*\n')
             else:
-                output.write(f'{contents[0]}\t{contents[1]}\n')
+                if not userProfileKG is None:
+                    print('checking profile')
+                    user_results = userProfileKG.query(userQueryStr)
+                    for result in user_results:
+                        subjects = catalogKG.subjects(predicate=RDF.type, object=URIRef(result[0]))
+                        if not subjects is None:
+                            print(f'{item} is not suitable, as it is related to {result[0]}!')
+                            output.write(f'{contents[0]}\t{contents[1]}\t*\n')
+                        else:
+                            output.write(f'{contents[0]}\t{contents[1]}\n')
+                else:
+                    output.write(f'{contents[0]}\t{contents[1]}\n')
         output.close()
 
     return output_filename
@@ -37,8 +48,8 @@ def filterRecos(filename, catalogKG, queryStr):
 def main(args):
     arg_p = ArgumentParser('python filter.py', description='Filters a list of recommendations according to a predefined SPARQL query.')
     arg_p.add_argument('Catalog', metavar='catalog', type=str, default=None, help='catalog KG file (*.ttl)')
-#    arg_p.add_argument('Profile', metavar='profile', type=str, default=None, help='user-profile KG file (*.ttl)')
     arg_p.add_argument('Recos', metavar='recos', type=str, default=None, help='recomendations file (*.txt)')
+    arg_p.add_argument('Profile', metavar='profile', type=str, default=None, help='user-profile KG file (*.ttl)')
 
     args = arg_p.parse_args(args[1:])
 
@@ -47,21 +58,19 @@ def main(args):
         print('No catalog KG provided.')
         exit(1)
 
-#    profile = args.Profile
-#    if profile is None:
-#        print('No user-profile KG provided.')
-#        exit(1)
-
     recos = args.Recos
     if recos is None:
         print('No recommendations file provided.')
         exit(1)
 
     catalogKG = loadKG(catalog)
-#    userProfileKG = loadKG(profile)
+
+    profile = args.Profile
+    if profile is not None:
+        userProfileKG = loadKG(profile)
 
     cfg = Config()
-    filterRecos(recos, catalogKG, cfg.getFilterQuery())
+    filterRecos(recos, catalogKG, userProfileKG, cfg.getFilterQuery(), cfg.getFilterUserQuery())
 
 if __name__ == '__main__':
     exit(main(argv))

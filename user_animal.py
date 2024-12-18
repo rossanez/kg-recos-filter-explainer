@@ -25,5 +25,14 @@ def genDescription(userProfileKG, predicates):
     with open(f'user_description.txt', 'w') as output:
         output.write(f"This cow has the following characteristics:\n\n")
         for entry in entries:
-            output.write(f"\"{entry[0]}\"\t{entry[1]}\n")
+            if entry[0].endswith('age'):
+                output.write(f'It is {entry[1]} years old.\n')
+            elif entry[0].endswith('condition'):
+                condition = entry[1].split('#')
+                condition = condition[1].replace('_', ' ')
+                output.write(f'It suffers from {condition}.\n')
+            elif entry[0].endswith('allergy'):
+                allergy = entry[1].split('#')
+                allergy = allergy[1].replace('_', ' ')
+                output.write(f'It is allergic to {allergy}.\n')
 

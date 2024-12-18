@@ -1,4 +1,4 @@
 This cow has the following characteristics:
 
-"http://animal-drugs.com/properties#has_condition"	http://animal-drugs.com/conditions#clinical_mastitis
-"http://animal-drugs.com/properties#has_age"	2
+It suffers from clinical mastitis.
+It is 2 years old.

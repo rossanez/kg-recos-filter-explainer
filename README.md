@@ -1,5 +1,11 @@
-# kg-recos-filter-explainer
-Filtering &amp; explaining KG-based recommendations with LLMs
+# kg-recos-reranker-filter-explainer
+ELSA-Compliant re-ranking, filtering, &amp; explaining KG-based recommendations using LLMs
+
+# For re-ranking
+```shell
+$ python3 rerank.py kg-file.ttl recommendations.txt user-profile-kg-file.ttl
+```
+- Will output recommendations_reranked.txt
 
 # For filtering:
 ```shell

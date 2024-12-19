@@ -1,0 +1,10 @@
+http://www.netflix.com/nf-schema#s7516	0.01612202492922071
+http://www.netflix.com/nf-schema#s8467	0.01550254424141999
+http://www.netflix.com/nf-schema#s8342	0.015455037630371279
+http://www.netflix.com/nf-schema#s7137	0.015248037846840886
+http://www.netflix.com/nf-schema#s7817	0.015178352074708957
+http://www.netflix.com/nf-schema#s6187	0.015125437088070645
+http://www.netflix.com/nf-schema#s171	0.01487784240353668
+http://www.netflix.com/nf-schema#s1855	0.015153963566995225	#
+http://www.netflix.com/nf-schema#s3828	0.015149746010998324	#
+http://www.netflix.com/nf-schema#s5614	0.014912969038106091	#

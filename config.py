@@ -5,6 +5,9 @@ from configparser import ConfigParser
 
 class Config:
 
+    __RERANKER_SECTION_NAME = "FILTER"
+    __RERANKER_SPARQL_KEY_NAME = "sparql"
+
     __FILTER_SECTION_NAME = "FILTER"
     __FILTER_SPARQL_KEY_NAME = "sparql"
     __FILTER_USER_SPARQL_KEY_NAME = "user_sparql"
@@ -23,6 +26,9 @@ class Config:
         self.__parser = ConfigParser(delimiters=('='))
         self.__parser.optionxform = str # we want case-sensitive keys
         self.__parser.read(os.path.join(os.path.dirname(__file__),'res/config.ini'))
+
+    def getRerankerQuery(self):
+        return self.__parser.get(self.__RERANKER_SECTION_NAME, self.__RERANKER_SPARQL_KEY_NAME)
 
     def getFilterQuery(self):
         return self.__parser.get(self.__FILTER_SECTION_NAME, self.__FILTER_SPARQL_KEY_NAME)

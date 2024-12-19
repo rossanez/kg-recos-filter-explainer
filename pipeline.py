@@ -4,6 +4,7 @@ from sys import argv
 from config import Config
 from explain import explainFilteredRecos
 from filter import loadKG, filterRecos
+from rerank import rerankRecos
 
 def main(args):
     arg_p = ArgumentParser('python pipeline.py', description='Runs the entire pipeline')
@@ -28,7 +29,8 @@ def main(args):
     catalogKG = loadKG(catalog)
 
     cfg = Config()
-    filteredFileName = filterRecos(recos, catalogKG, cfg.getFilterQuery())
+    reRankedFileName = rerankRecos(recos, catalogKG, cfg.getRerankerQuery())
+    filteredFileName = filterRecos(reRankedFileName, catalogKG, cfg.getFilterQuery())
 
     models = args.models.split(',')
     temperatures = args.temperatures.split(',')

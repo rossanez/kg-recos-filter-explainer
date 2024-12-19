@@ -1,4 +1,5 @@
 @prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>   .
+@prefix	cond:	<http://animal-drugs.com/conditions#>	.
 @prefix dinto: <http://animal-drugs.com/properties#> .
 @prefix med: <http://animal-drugs.com/Medications#> .
 @prefix adv: <http://animal-drugs.com/AdverseEffects#> .
@@ -67,6 +68,7 @@ adv:Inflammation_at_the_injection_site dinto:has_severity sev:common .
 med:Tylosin dinto:has_effect adv:mild_diarrhea .
 adv:mild_diarrhea dinto:has_severity sev:common .
 # med:Ampicillin dinto:to_treat <Condition/cattle .
+med:Ampicillin dinto:has_target_species dinto:cattle .
 # <Condition/cattle rdf:type dinto:Condition .
 med:Ampicillin rdf:type dinto:Medication .
 med:Ampicillin dinto:has_target_species dinto:pigs .
@@ -134,6 +136,10 @@ med:Cephalexin rdf:possible_resistance_to dinto:Staphylococcus_aureus .
 # Penicillin family
 med:Aminopenicillin	rdf:type	med:Penicillin	.
 med:Ampicillin	rdf:type	med:Penicillin	.
+med:Ampicillin	dinto:to_treat	cond:Clinical_mastitis	.
 med:Penethamate_hydroiodide	rdf:type	med:Penicillin	.
+med:Penethamate_hydroiodide	dinto:to_treat	cond:Sub-clinical_mastitis	.
 med:Procainebenzylpenicillin	rdf:type	med:Penicillin	.
+med:Procainebenzylpenicillin	dinto:to_treat	cond:Sub-clinical_mastitis	.
 med:Cloxacillin	rdf:type	med:Penicillin	.
+med:Cloxacillin	dinto:to_treat	cond:Sub-clinical_mastitis	.

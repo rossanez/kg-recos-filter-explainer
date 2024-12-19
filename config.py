@@ -5,7 +5,7 @@ from configparser import ConfigParser
 
 class Config:
 
-    __RERANKER_SECTION_NAME = "FILTER"
+    __RERANKER_SECTION_NAME = "RERANKER"
     __RERANKER_SPARQL_KEY_NAME = "sparql"
 
     __FILTER_SECTION_NAME = "FILTER"

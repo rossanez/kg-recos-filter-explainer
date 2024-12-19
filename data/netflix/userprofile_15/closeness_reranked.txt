@@ -1,10 +1,10 @@
+http://www.netflix.com/nf-schema#s7664	0.015126859182656003
+http://www.netflix.com/nf-schema#s5512	0.015124115923286718
+http://www.netflix.com/nf-schema#s2754	0.015120627936888746
+http://www.netflix.com/nf-schema#s2609	0.015120188377019244
+http://www.netflix.com/nf-schema#s3241	0.015119372748914254
+http://www.netflix.com/nf-schema#s5079	0.015118961247759945
+http://www.netflix.com/nf-schema#s5006	0.015118961247759945
+http://www.netflix.com/nf-schema#s4413	0.015118961247759938
+http://www.netflix.com/nf-schema#s3829	0.015118742693939438
 http://www.netflix.com/nf-schema#s3828	0.015133419511619615	#
-http://www.netflix.com/nf-schema#s7664	0.015126859182656003	#
-http://www.netflix.com/nf-schema#s5512	0.015124115923286718	#
-http://www.netflix.com/nf-schema#s2754	0.015120627936888746	#
-http://www.netflix.com/nf-schema#s2609	0.015120188377019244	#
-http://www.netflix.com/nf-schema#s3241	0.015119372748914254	#
-http://www.netflix.com/nf-schema#s5079	0.015118961247759945	#
-http://www.netflix.com/nf-schema#s5006	0.015118961247759945	#
-http://www.netflix.com/nf-schema#s4413	0.015118961247759938	#
-http://www.netflix.com/nf-schema#s3829	0.015118742693939438	#

@@ -5,5 +5,5 @@
 
 ent:cow2	prop:has_id	'02'^^xsd:integer	.
 ent:cow2	prop:has_age	'1'^^xsd:integer	.
-ent:cow2	prop:has_condition	cond:sub-clinical_mastitis	.
+ent:cow2	prop:has_condition	cond:Sub-clinical_mastitis	.
 

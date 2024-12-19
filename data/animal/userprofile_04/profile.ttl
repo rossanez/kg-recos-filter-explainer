@@ -6,6 +6,6 @@
 
 ent:cow4	prop:has_id	'04'^^xsd:integer	.
 ent:cow4	prop:has_age	'2'^^xsd:integer	.
-ent:cow4	prop:has_condition	cond:clinical_mastitis	.
+ent:cow4	prop:has_condition	cond:Clinical_mastitis	.
 ent:cow4	prop:has_allergy	fam:Penicillin	.
 

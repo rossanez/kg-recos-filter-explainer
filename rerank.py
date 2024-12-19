@@ -28,7 +28,6 @@ def rerankRecos(filename, catalogKG, queryStr):
             results = catalogKG.query(queryStr.replace("subj", item))
             if len(results) > 0 :
                 print(f'{item} is not ELSA-compliant!')
-                print(queryStr.replace("subj", item))
                 elsa_caught.append(f'{contents[0]}\t{contents[1]}\t#\n')
             else:
                 output.write(f'{contents[0]}\t{contents[1]}\n')

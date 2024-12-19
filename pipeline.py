@@ -30,7 +30,7 @@ def main(args):
 
     cfg = Config()
     reRankedFileName = rerankRecos(recos, catalogKG, cfg.getRerankerQuery())
-    filteredFileName = filterRecos(reRankedFileName, catalogKG, cfg.getFilterQuery())
+    filteredFileName = filterRecos(reRankedFileName, catalogKG, None, cfg.getFilterQuery(), cfg.getFilterUserProps())
 
     models = args.models.split(',')
     temperatures = args.temperatures.split(',')

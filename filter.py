@@ -13,7 +13,7 @@ def loadKG(filename):
 
     return graph
 
-def filterRecos(filename, catalogKG, userProfileKG, queryStr, userQueryStr):
+def filterRecos(filename, catalogKG, userProfileKG, queryStr, userProps):
     print(f'Filtering recos from {filename} ...')
 
     split_filename = filename.split('.')
@@ -24,21 +24,30 @@ def filterRecos(filename, catalogKG, userProfileKG, queryStr, userQueryStr):
         for line in input:
             contents = line.strip().split("\t")
             item = contents[0]
-            results = catalogKG.query(queryStr.replace("subj", item))
-            if len(results) > 0 :
-                print(f'{item} is not suitable!')
-                output.write(f'{contents[0]}\t{contents[1]}\t*\n')
-            else:
-                if not userProfileKG is None:
-                    print('checking profile')
-                    user_results = userProfileKG.query(userQueryStr)
-                    for result in user_results:
-                        subjects = catalogKG.subjects(predicate=RDF.type, object=URIRef(result[0]))
-                        if not subjects is None:
-                            print(f'{item} is not suitable, as it is related to {result[0]}!')
-                            output.write(f'{contents[0]}\t{contents[1]}\t*\n')
-                        else:
-                            output.write(f'{contents[0]}\t{contents[1]}\n')
+
+            if userProfileKG is not None:
+                conds = [o for o in userProfileKG.objects(predicate=URIRef(userProps[0]))]
+                results = catalogKG.query(queryStr.replace("subj", item).replace("obj", conds[0]))
+                if len(results) > 0 :
+                    print(f'{item} is not suitable!')
+                    output.write(f'{contents[0]}\t{contents[1]}\t*\n')
+                else:
+                    allergies = [o for o in userProfileKG.objects(predicate=URIRef(userProps[1]))]
+                    if len(allergies) > 0:
+                        for allergy in allergies:
+                            deriveds = [s for s in catalogKG.subjects(predicate=RDF.type, object=URIRef(allergy))]
+                            if len(deriveds) > 0:
+                                print(f'{item} is not suitable, as it is related to {result[0]}!')
+                                output.write(f'{contents[0]}\t{contents[1]}\t*\n')
+                            else:
+                                output.write(f'{contents[0]}\t{contents[1]}\n')
+                    else:
+                        output.write(f'{contents[0]}\t{contents[1]}\n')
+            else: # No user-profile required
+                results = catalogKG.query(queryStr.replace("subj", item))
+                if len(results) > 0 :
+                    print(f'{item} is not suitable!')
+                    output.write(f'{contents[0]}\t{contents[1]}\t*\n')
                 else:
                     output.write(f'{contents[0]}\t{contents[1]}\n')
         output.close()
@@ -70,7 +79,7 @@ def main(args):
         userProfileKG = loadKG(profile)
 
     cfg = Config()
-    filterRecos(recos, catalogKG, userProfileKG, cfg.getFilterQuery(), cfg.getFilterUserQuery())
+    filterRecos(recos, catalogKG, userProfileKG, cfg.getFilterQuery(), cfg.getFilterUserProps())
 
 if __name__ == '__main__':
     exit(main(argv))

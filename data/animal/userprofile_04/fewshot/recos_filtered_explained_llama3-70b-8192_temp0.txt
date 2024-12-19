@@ -1,5 +1,5 @@
 http://animal-drugs.com/Medications#Cephalexin	1	"Cephalexin"	*	Cephalexin is not a suitable medication, as among its adverse effects, it may cause diarrhea, nausea, vomiting, indigestion, and stomach pain.
 http://animal-drugs.com/Medications#Ampicillin	2	"Ampicillin"	*	Ampicillin is not a suitable medication, as among its adverse effects, it may cause rash, Clostridium difficile colitis, and anaphylaxis.
-http://animal-drugs.com/Medications#Cefquinome	3	"Cefquinome"	*	Please provide the triples.
-http://animal-drugs.com/Medications#Enrofloxacin	4	"Enrofloxacin"	*	Please provide the triples.
+http://animal-drugs.com/Medications#Cefquinome	3	"Cefquinome"
+http://animal-drugs.com/Medications#Enrofloxacin	4	"Enrofloxacin"
 http://animal-drugs.com/Medications#Marbofloxacin	5	"Marbofloxacin"	*	Marbofloxacin is not a suitable medication, as among its adverse effects, it may cause vomiting, anorexia, soft stools, diarrhea, and decreased activity.

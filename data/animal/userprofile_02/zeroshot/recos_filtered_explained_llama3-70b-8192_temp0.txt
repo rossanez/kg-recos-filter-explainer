@@ -1,5 +1,5 @@
 http://animal-drugs.com/Medications#Cephalexin	1	"Cephalexin"	*	Cephalexin is not a suitable recommendation because it has adverse effects including diarrhea, nausea, vomiting, indigestion, and stomach pain.
-http://animal-drugs.com/Medications#Cephapirin	2	"Cephapirin"	*	Cephapirin is not a suitable recommendation because it has been known to cause allergic reactions, fever, and pain at the injection site.
+http://animal-drugs.com/Medications#Cephapirin	2	"Cephapirin"	*	Cephapirin is not a suitable recommendation because it causes allergic reactions, fever, and pain at the injection site.
 http://animal-drugs.com/Medications#Ampicillin	3	"Ampicillin"	*	Ampicillin is not a suitable recommendation because it has been known to cause rash, Clostridium difficile colitis, and anaphylaxis.
 http://animal-drugs.com/Medications#Danofloxacin	4	"Danofloxacin"
 http://animal-drugs.com/Medications#Enrofloxacin	5	"Enrofloxacin"

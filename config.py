@@ -10,7 +10,7 @@ class Config:
 
     __FILTER_SECTION_NAME = "FILTER"
     __FILTER_SPARQL_KEY_NAME = "sparql"
-    __FILTER_USER_SPARQL_KEY_NAME = "user_sparql"
+    __FILTER_USER_PROPERTIES_KEY_NAME = "user_props"
 
     __USER_SECTION_NAME = "USER"
     __USER_PREDS_KEY_NAME = "predicates"
@@ -33,8 +33,9 @@ class Config:
     def getFilterQuery(self):
         return self.__parser.get(self.__FILTER_SECTION_NAME, self.__FILTER_SPARQL_KEY_NAME)
 
-    def getFilterUserQuery(self):
-        return self.__parser.get(self.__FILTER_SECTION_NAME, self.__FILTER_USER_SPARQL_KEY_NAME)
+    def getFilterUserProps(self):
+        e = self.__parser.get(self.__FILTER_SECTION_NAME, self.__FILTER_USER_PROPERTIES_KEY_NAME)
+        return ast.literal_eval(e)
 
     def getUserPredicates(self):
         e = self.__parser.get(self.__USER_SECTION_NAME, self.__USER_PREDS_KEY_NAME)

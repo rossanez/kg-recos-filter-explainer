@@ -39,11 +39,11 @@ adv:Fever dinto:has_severity sev:common .
 med:Cephapirin dinto:has_effect adv:pain_at_injection .
 adv:pain_at_injection rdf:type dinto:Adverse_effect .
 adv:pain_at_injection dinto:has_severity sev:common .
-med:Procainebenzylpenicillin rdf:possible_resistance_to dinto:Staphylococcus_aureus .
+med:Procainebenzylpenicillin dinto:possible_resistance_to dinto:Staphylococcus_aureus .
 med:Cefquinome dinto:has_target_species dinto:cattle .
 med:Cefquinome dinto:has_target_species dinto:pigs .
-med:Cefquinome dinto:may_cause_resistance_in dinto:Salmonella .
-med:Cefquinome dinto:may_cause_resistance_in dinto:Staphylococcus_aureus .
+med:Cefquinome dinto:possible_resistance_to dinto:Salmonella .
+med:Cefquinome dinto:possible_resistance_to dinto:Staphylococcus_aureus .
 med:Penethamate_hydroiodide dinto:has_effect adv:pain_at_injection .
 adv:pain_at_injection dinto:has_severity sev:common .
 med:Penethamate_hydroiodide dinto:has_effect adv:blood_clotting .

@@ -31,5 +31,5 @@ $ python3 pipeline.py kg-file.ttl recommendations.txt -m llama3-70b-8192,mixtral
 
 ## See also
 
-* [KGAT-pytorch](https://github.com/varsha-wur/KGAT-pytorch): MovieLens 1M data and code for the baseline KGAT, ELSA-filter, CNM-based re-ranker, ELSA-filter and CNM-based re-ranker, ELSA-Explainer.
+* [KGAT-pytorch](https://github.com/varsha-wur/KGAT-pytorch/tree/master): MovieLens 1M data and code for the baseline KGAT, ELSA-filter, CNM-based re-ranker, ELSA-filter and CNM-based re-ranker, ELSA-Explainer.
 * [KGExplainer-KGAT](https://github.com/varsha-wur/KGExplainer-KGAT): Baseline KGExplainer that explains the recommendations by KGAT on Movielens 1M.

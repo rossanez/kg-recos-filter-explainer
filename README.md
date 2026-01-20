@@ -25,3 +25,11 @@ $ python3 pipeline.py kg-file.ttl recommendations.txt -m llama3-70b-8192,mixtral
 ```
 - Will output the filtered recommendations file and all the explanation files for the passed in parameters
 
+## Citing this work
+
+* Kalidas, V.; Rossanez, A.; Regino, A. G.; Dos Reis, J. C.; Torres, R. S. ELSA-Compliant Explainable Recommender Systems. (Coming soon)
+
+## See also
+
+* [KGAT-pytorch](https://github.com/varsha-wur/KGAT-pytorch): MovieLens 1M data and code for the baseline KGAT, ELSA-filter, CNM-based re-ranker, ELSA-filter and CNM-based re-ranker, ELSA-Explainer.
+* [KGExplainer-KGAT](https://github.com/varsha-wur/KGExplainer-KGAT): Baseline KGExplainer that explains the recommendations by KGAT on Movielens 1M.

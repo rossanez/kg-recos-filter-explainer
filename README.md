@@ -27,7 +27,7 @@ $ python3 pipeline.py kg-file.ttl recommendations.txt -m llama3-70b-8192,mixtral
 
 ## Citing this work
 
-* Kalidas, V.; Rossanez, A.; Regino, A. G.; Dos Reis, J. C.; Torres, R. S. ELSA-Compliant Explainable Recommender Systems. (Coming soon)
+* Kalidas, V.; Rossanez, A.; Regino, A. G.; Dos Reis, J. C.; Torres, R. S. [ELSA-Compliant Explainable Recommender Systems.](https://doi.org/10.1145/3797875) ACM Transactions on Recommender Systems
 
 ## See also
 
